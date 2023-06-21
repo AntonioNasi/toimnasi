@@ -6,97 +6,180 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    background-image: linear-gradient(45deg, blue, skyblue)
 }
 
 header{
-    max-width: 600px;
-    margin: auto;
-    padding: 25px 0px;
-    height: auto;
+    height: 100vh;
+    width: auto;
+    background-image:linear-gradient(to top, rgb(2, 152, 197), rgba(2, 152, 197, 0), rgba(2, 152, 197, 0), rgba(2, 152, 197, 0) );
 }
-@media screen and (min-width:601px) {
+
+@media screen and (min-width:600px){
     header{
-        height: auto;
+        height: 100vh;
+        background-image:linear-gradient(to top, rgb(2, 152, 197), rgba(2, 152, 197, 0), rgba(2, 152, 197, 0), rgba(2, 152, 197, 0), rgba(2, 152, 197, 0) );
     }
 }
 
-header .cx-img{
-    width: 140px;
-    height: 140px;
-    border: solid 1px #ffffff;
-    border-radius: 100%;
-    margin: 0px auto 10px;
+header .cx_fot_des{
+    border-top: solid 1px transparent;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./eubusto.png);
+    background-position: -60px 32px;
+    background-size: 197%;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width:600px){
+    header .cx_fot_des{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 0%;
+    }
 }
 
-header .cx-img img{
-    width: 140px;
-    height: 140px;
-    padding: 5px;
-    border-radius: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-header .name h1{
-    text-align: center;
-    font-weight: 400;
-    color: rgba(250, 250, 250, 1);
+header .cx_fot_des .foto{
+    height: 100vh;
+    border-top: solid 1px transparent;
+    background-image:linear-gradient(180deg, rgb(5, 5, 5), rgba(2, 152, 197, 0.404), rgb(5, 5, 5) );
 }
 
 
 
-header .minicurriculo{
-    max-width: 600px;
-    margin: auto;
-    padding: 15px;
+header .cx_fot_des .foto .apresen{
+    width: auto;
+    margin: 13% 0% 0% 35%;
+    padding: 0% 5% 0% 0%;
 }
-header .minicurriculo p{
+@media screen and (min-width:600px){
+    header .cx_fot_des .foto .apresen{
+        width: 60%;
+        margin: 10% 0% 0% 35%;
+    }
+}
+
+header .cx_fot_des .foto .apresen h1{
+    text-align: left;
+    border-radius: 100px;
     color: #ffffff;
-    font-size: 18px;
-    text-align: center;
+    display: inline-block;
+    letter-spacing: -2px;
 }
-header .cursogratis{
-    max-width: 600px;
-    margin: auto;
-    padding: 15px;
-}
-
-
-
-.links{
-    max-width: 600px;
-    margin: auto;
-    padding: 15px;
-}
-.links h1{
-    text-align: center;
-    background-color: blue;
+header .cx_fot_des .foto .apresen #pid{
     color: #ffffff;
-    padding: 10px 0px
 }
 
-.links .cx-links{
-    display: ;
+@media screen and (min-width:600px){
+    header .cx_fot_des .foto .apresen h1{
+        background-color: unset;
+        color: #ffffff;
+        font-size: 50px;
+        text-align: left;
+    }
+
+    header .cx_fot_des .foto .apresen #pid{
+        color: #ffffff;
+        text-align: left;
+        font-size: 24px;
+        font-weight: 200;
+        letter-spacing: -1px;
+    }
 }
 
-.links .cx-links ul li{
-    list-style: none;
-    text-align: center;
-}
-
-.links .cx-links ul li a{
-    text-decoration: none;
-    color: #ffffff;
-
-    text-align: center;
-    padding: 10px 0px;
-    margin: 10px 0px;
-    border: solid 1px rgba(250, 250, 250, 1);
-    border-radius: 20px;
+header .cx_fot_des .foto .apresen .cont-redes{
     display: block;
 }
+@media screen and (min-width:600px){
+    header .cx_fot_des .foto .apresen .cont-redes{
+        display: flex;
+    }
+}
 
-.links .cx-links ul li a:hover{
-    border: solid 1px rgba(250, 250, 250, .5);
+header .cx_fot_des .foto .apresen .cont-redes .rede{
+    display: flex;
+    align-items: center;
+    margin: 10% 0% 0% 0%;
+}
+header .cx_fot_des .foto .apresen .cont-redes .rede a{
+    text-decoration: none;
+}
+header .cx_fot_des .foto .apresen .cont-redes .rede p{
+    color: #ffffff;
+}
+@media screen and (min-width:600px){
+    header .cx_fot_des .foto .apresen .cont-redes .rede{
+        display: flex;
+        align-items: center;
+        margin: 8% 0% 0% 0%;
+        padding: 0px 0px 0px 3%;
+        height: 50px;
+        background-color: rgba(23, 22, 24, 0.24);
+    }
+    header .cx_fot_des .foto .apresen .cont-redes .rede:hover{
+        background-color: rgb(23, 59, 59);
+        color: black;
+    }
+    header .cx_fot_des .foto .apresen .cont-redes .rede p{
+        color: #ffffff;
+    }
+}
+
+header .cx_fot_des .foto .apresen .cont-redes .rede img{
+    width: 20%;
+    margin-right: 10px;
+}
+
+
+
+header .cx_fot_des .foto .cursos-ebooks{
+    margin: 15% 0% 0% 0%;
+    padding: 0px 15px;
+}
+@media screen and (min-width:600px){
+    header .cx_fot_des .foto .cursos-ebooks{
+        margin: 10% 0% 0% 0%;
+        padding: 0px 15px;
+    }
+}
+header .cx_fot_des .foto .cursos-ebooks p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+header .cx_fot_des .foto .cursos-ebooks .catraca{
+    display: flex;
+    width: 28%;
+    margin: 15px auto 0px;
+}
+@media screen and (min-width:600px){
+    header .cx_fot_des .foto .cursos-ebooks .catraca{
+        width: 7%;
+    }
+}
+header .cx_fot_des .foto .cursos-ebooks .catraca #cat1{
+    width: 60px;
+    height: 60px;
+    animation-name: gira1;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+@keyframes gira1 {
+    0%{transform: rotate(180deg);}
+}
+
+header .cx_fot_des .foto .cursos-ebooks .catraca #cat2{
+    width: 40px;
+    height: 40px;
+    margin: 30px 0px 0px -8px;
+    animation-name: gira2;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+@keyframes gira2 {
+    0%{transform: rotate(-180deg);}
 }
