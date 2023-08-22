@@ -1,86 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Toim Nasi</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="./style.css">
-    </head>
+<head>
+    
+    <!-----------------------------------------------------
+    Meta tags configurations de descrições
+    ------------------------------------------------------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Classista">
 
-    <body>
+    <meta name="description" content="Cotidiano, ciência e religião.">
+    <meta property="og:image" content="#">
+    <meta property="og:description" content="Cotidiano, ciência e religião.">
 
-        <header>
-            <div class="cx_fot_des">
-                <div class="foto">
-                    <div class="apresen">
+    <!---------------------------------
+        Carrega o fav icone do site
+    ----------------------------------->
+    <link rel="shortcut icon" type="image/x-icon" href="#"/>
 
-                        <h1>Seja bem vindo!</h1>
-                        <p id="pid">Eu sou Antonio Nasi, sou pedagogo e desenvolvo pesquisa sobre religião.</p>
+    <!---------------------------------
+    Carrega a fonte do site
+    ----------------------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-                        <div class="cont-redes">
-                            <div class="rede">
-                                <img src="./lattes.png">
-                                <a href="https://lattes.cnpq.br/6014284170206157" target="_blank">
-                                    <p>Lattes</p>
-                                </a>
-                            </div>
-                            <div class="rede">
-                                <img src="./youtube.png">
-                                <a href="https://www.youtube.com/channel/UCjQYssGPCRr8ZpZxD7unpLw" target="_blank">
-                                    <p>Youtube</p>
-                                </a>
-                            </div>
-                            <div class="rede">
-                                <img src="./insta.png">
-                                <a href="https://www.instagram.com/toimnasi/" target="_blank">
-                                    <p>Insta</p>
-                                </a>
-                            </div>
-                            <div class="rede">
-                                <img src="./tik.png">
-                                <a href="https://www.tiktok.com/@toimnasi" target="_blank">
-                                    <p>Tiktok</p>
-                                </a>
-                            </div>
-                            <div class="rede">
-                                <img src="./ontoedu.png">
-                                <a href="./onto.html">
-                                    <p>Onto</p>
-                                </a>
-                            </div>
-                        </div>
+    <!--FOLHA DE ESTILHOS-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./responsive.css">
 
-                        <div class="cont-cursos">
-                            <h2>Cursos atuais</h2>
-                            <p>Para professores e técnicos em educação</p>
+    <!---------------------------------
+        Carrega HTML externo
+    ----------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-                            <div class="cursos">
-                                <div class="curso">
-                                    <img src="./1.png">
-                                </div>
-                                <div class="curso">
-                                    <img src="./2.png">
-                                </div>
-                                <div class="curso">
-                                    <img src="./9.png">
-                                </div>
-                            </div>
+    <script>
+        $(function () {
+            $('#menu').load("./menu.html");
+        });
+    </script>
 
-                            <a href="https://wa.me/5585996772012?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20cursos%20e%20palestras." target="_blank"">Mais informações</a>
+    <title>Toim Nasi</title>
 
-                        </div>
-                    </div>
+</head>
 
+<body>
+
+    <header>
+        
+        <div class="cx-menu" id="menu"></div>
+
+        <div class="apresentacao-mobile">
+            
+            <div class="cx-alerta-news">
+
+                <div class="alerta-news">
+                    <img src="./alerta.png">
                 </div>
+
+                <div class="news" id="news">
+                    <a href="./index.html">Início</a>
+                    <a href="#">Pesquisa</a>
+                    <a href="./blog.html">Blog</a>
+                    <a href="#">Grupos de Estudo</a>
+                    <a href="#">Eventos</a>
+                    <a href="#">Essencial</a>
+                    <a href="#">Vida Acadêmica</a>
+                    <a href="#">Contato</a>
+                </div>
+
             </div>
-        </header>
 
-        <footer></footer>
+        </div>
 
-    </body>
+        <div class="apresentacao">
+            <div class="texto-apresenta">
+                <h1>Seja Bem-vindo!</h1>
+                <p>"Até na mais elevada ciência há um traço de fantasia"</p>
+                <div class="cx-esfera">
+                    <div class="esfera" id="sf01"></div>
+                    <div class="esfera" id="sf02"></div>
+                    <div class="esfera" id="sf03"></div>
+                    <div class="esfera" id="sf04"></div>
+                </div>
+                <p>Faça sua escolha!</p>
+            </div>
+        </div>
+
+    </header>
+    
+</body>
 </html>

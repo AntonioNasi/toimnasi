@@ -1,256 +1,235 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+/* Global stile */
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-header{
-    height: 100vh;
-    width: auto;
-    
-}
-
-@media screen and (min-width:600px){
-    header{
-        height: 100vh;
-    }
-}
-
-header .cx_fot_des{
-    border-top: solid 1px #000000;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-image: url(./eubusto.png);
-    background-position: -60px 32px;
-    background-size: 197%;
-    background-repeat: no-repeat;
-}
-@media screen and (min-width:600px){
-    header .cx_fot_des{
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: 0%;
-    }
-}
-
-header .cx_fot_des .foto{
-    height: 100vh;
-    border-top: solid 1px transparent;
-    background-image:linear-gradient(180deg, rgb(4, 105, 145), rgba(255, 255, 255, 0.212), rgb(4, 105, 145) );
+    font-family: 'Roboto', sans-serif;
 }
 
 
-
-header .cx_fot_des .foto .apresen{
-    width: 90%;
-    margin: 10px auto 0px;
-    padding: 10px 10px;
-    border-radius: 30px;
-    background-color: #00000083;
-}
-@media screen and (min-width:600px){
-    header .cx_fot_des .foto .apresen{
-        width: 65%;
-        margin: 2% 0% 0% 30%;
-        padding: 10px 10px 10px 10px;
-        background-color: #000616;
-    }
-}
-
-header .cx_fot_des .foto .apresen h1{
-    text-align: center;
-    border-radius: 100px;
-    color: #ffffff;
-    letter-spacing: -2px;
-}
-header .cx_fot_des .foto .apresen #pid{
-    color: #ffffff;
-    text-align: center;
-    padding: 0px;
-}
-header .cx_fot_des .foto .apresen #pid::after{
-    content: "";
-    display: block;
-    height: 1px;
-    width: 100%;
-    margin-top: 8%;
-    background-color: #ffffff;
-}
-
-@media screen and (min-width:600px){
-    header .cx_fot_des .foto .apresen h1{
-        background-color: unset;
-        color: #ffffff;
-        font-size: 50px;
-        text-align: center;
-    }
-
-    header .cx_fot_des .foto .apresen #pid{
-        color: #ffffff;
-        text-align: center;
-        font-size: 24px;
-        font-weight: 200;
-        letter-spacing: -1px;
-        padding: 0% 0% 3% 0%;
-    }
-    header .cx_fot_des .foto .apresen #pid::after{
-        margin-top: 2%;
-    }
-}
-
-
-/* Formatação da área de redes sociais */
-
-header .cx_fot_des .foto .apresen .cont-redes{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
-}
-@media screen and (min-width:600px){
-    header .cx_fot_des .foto .apresen .cont-redes{
-        display: flex;
-        width: auto;
-        padding-top: 0px;
-        margin-top: 0px;
-    }
-}
-
-header .cx_fot_des .foto .apresen .cont-redes .rede{
-    display: flex;
-    flex-basis: 150px;
-    align-items: center;
-    margin: 10px 0px 0px 0px;
-}
-header .cx_fot_des .foto .apresen .cont-redes .rede a{
-    text-decoration: none;
-}
-header .cx_fot_des .foto .apresen .cont-redes .rede p{
-    color: #ffffff;
-    font-size: 20px;
-}
-@media screen and (min-width:600px){
-    header .cx_fot_des .foto .apresen .cont-redes .rede{
-        display: flex;
-        flex-basis: 170px;
-        align-items: center;
-        margin: 0% 0% 0% 0%;
-        padding: 10px 10px;
-        background-color: rgba(0, 238, 255, 0.288);
-    }
-    header .cx_fot_des .foto .apresen .cont-redes .rede:hover{
-        background-color: rgb(23, 59, 59);
-        color: black;
-        transition: background-color .5s;
-    }
-    header .cx_fot_des .foto .apresen .cont-redes .rede p{
-        color: #ffffff;
-    }
-}
-
-header .cx_fot_des .foto .apresen .cont-redes .rede img{
-    width: 38%;
-    margin-right: 10px;
-}
-
-
-/* Formatação da área de cursos */
-
-header .cx_fot_des .foto .apresen .cont-cursos{
-    padding: 0;
-    margin: 5px 0px;
-}
-
-header .cx_fot_des .foto .apresen .cont-cursos a{
-    display: block;
-    text-decoration: none;
-    color: #ffffff;
-    text-align: center;
-}
-
-@media screen and (min-width:600px){
-    
-    header .cx_fot_des .foto .apresen .cont-cursos{
-        border: solid 1px #ffffff;
-        border-radius: 0px 0px 30px 30px;
-        padding: 10px 10px 10px 10px;
-        margin: 10px 0px 0px 0px;
-    }
-
-    header .cx_fot_des .foto .apresen .cont-cursos a{
-        display: block;
-        text-decoration: none;
-        color: #ffffff;
-        text-align: center;
-    }
-    header .cx_fot_des .foto .apresen .cont-cursos a:hover{
-        color: orange;
-    }
-
-}
-
-header .cx_fot_des .foto .apresen .cont-cursos h2{
-    color: #ffffff;
-    text-align: center;
-}
-header .cx_fot_des .foto .apresen .cont-cursos p{
-    color: #ffffff;
-    text-align: center;
-}
-
-header .cx_fot_des .foto .apresen .cont-cursos .cursos{
-    display: flex;
-    flex-wrap: wrap;
-}
-@media screen and (min-width:600px){
-    header .cx_fot_des .foto .apresen .cont-cursos .cursos{
-        display: ;
-    }
-
-    header .cx_fot_des .foto .apresen .cont-cursos .cursos{
-        display: flex;
-        flex-wrap: nowrap;
-    }
-}
-
-header .cx_fot_des .foto .apresen .cont-cursos .cursos .curso{
-    flex-basis: 146px;
-    margin: 3px;
-}
-header .cx_fot_des .foto .apresen .cont-cursos .cursos .curso img{
-    width: 100%;
-}
-
-@media screen and (min-width:600px){
-    header .cx_fot_des .foto .apresen .cont-cursos .cursos .curso{
-        margin: 20px 8px 10px 0px;
-        width: 100%;
-        flex-basis: 285px;
-    }
-
-    header .cx_fot_des .foto .apresen .cont-cursos .cursos .curso img{
-        width: 100%;
-    }
-}
-
-header .cx_fot_des .foto .apresen .cont-cursos .cursos .curso .img-curso{
-    width: 50px;
+.cx-menu{
+    background-color: #deb887;
     height: 50px;
 }
 
-@media screen and (min-width:600px){
-    header .cx_fot_des .foto .apresen .cont-cursos .cursos .curso .img-curso{
-        width: 100%;
-    }
+.cx-menu .menu-g{
+    max-width: 94%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-header .cx_fot_des .foto .apresen .cont-cursos .cursos .curso p{
-    font-weight: 700;
-    margin-left: 10px;
-    text-align: left;
+.menu-g .logo-descreve a{
+    font-weight: 900;
+    font-size: 23px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.cx-menu .menu-g .menu-intens{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cx-menu .menu-g .menu-intens a{
+    margin: 0px 0px;
+    padding: 0px 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.cx-menu .menu-g .menu-intens a:hover{
+    background-color: rgba(0, 0, 0, .1);
+    transition: background-color .3s;
+}
+
+.apresentacao-mobile{
+    height: 93vh;
+    background-image: url(./cactus.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.apresentacao-mobile .cx-alerta-news{
+    max-width: 500px;
+    height: 400px;
+    margin: 40px auto 0px;
+}
+
+.apresentacao-mobile .cx-alerta-news .alerta-news{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 5px #deb887;
+
+    border: solid 1px #deb887;
+}
+
+.apresentacao-mobile .cx-alerta-news .alerta-news img{
+    width: 100%;
+}
+
+.apresentacao-mobile .cx-alerta-news .news{
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0px 0px;
+    margin: -50px auto 0px;
+    padding: 65px 0px 0px;
+
+    border: solid 1px #deb887;
+}
+
+.apresentacao-mobile .cx-alerta-news .news a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    background-color: #deb887;
+    text-align: center;
+    font-weight: 300;
+}
+
+.apresentacao-mobile .cx-alerta-news .news a:hover{
+    background-color: rgba(222, 184, 135, .8);
+    color: #000000;
+}
+
+
+.apresentacao{
+    height: 93vh;
+    background-image: url(./cactus.png);
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+}
+.apresentacao .texto-apresenta{
+    width: 60%;
+    margin: 50px auto 0px;
+}
+.apresentacao .texto-apresenta h1{
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #deb887;
+    font-weight: 900;
+}
+.apresentacao .texto-apresenta p{
+    text-align: center;
+    font-weight: 300;
+    margin: 10px 0px;
+}
+.apresentacao .texto-apresenta #informe{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.apresentacao .texto-apresenta .cx-esfera{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.apresentacao .texto-apresenta .cx-esfera .esfera{
+    margin: 30px 10px 0px;
+    height: 50px;
+    width: 140px;
+    background-color: #deb887;
+}
+
+
+
+/* Formatação da página de blog */
+.sec-blog .cx-artigo{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.sec-blog .cx-artigo .mapa-site{
+    text-align: center;
+    font-weight: 300;
+    margin: 40px 0px;
+}
+
+.sec-blog .cx-artigo .artigo{
+    width: 618px;
+    margin: 40px auto 0px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #deb887;
+}
+
+.sec-blog .cx-artigo .artigo h1{
+    font-size: 38px;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+.sec-blog .cx-artigo .artigo h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 30%;
+    margin: 10px 0px;
+    background-color: #deb887;
+}
+
+.sec-blog .cx-artigo .artigo .data-post{
+    font-weight: 300;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.sec-blog .cx-artigo .artigo img{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    margin: 30px 0px 0px;
+}
+
+.sec-blog .cx-artigo .artigo .credito-imagem{
+    font-weight: 300;
+    font-size: 10px;
+    margin: 0px 0px 30px;
+}
+
+.sec-blog .cx-artigo .artigo p{
+    margin: 30px 0px 0px 0px;
+    font-size: 23px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height: 1.5;
+}
+
+.sec-blog .cx-artigo .artigo #more1{
+    display: none;
+}
+
+.sec-blog .cx-artigo .artigo button{
+    padding: 3px 15px;
+    margin: 10px 0px 0px;
+    background-color: #deb887;
+    border: none;
 }
