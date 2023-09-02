@@ -65,4 +65,27 @@
     .sec-blog .cx-artigo .artigo p{
         font-size: 20px;
     }
+
+
+    /* Formatação para grupos de estudo mobile */
+
+    .sec-estudo .cx-estudo{
+        width: 93%;
+        margin: 0 auto;
+    }
+    .sec-estudo .cx-estudo .g-estudo{
+        width: 100%;
+        display: block;
+        padding: 20px 10px;
+    }
+    .sec-estudo .cx-estudo .g-estudo .capa-grupo{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .sec-estudo .cx-estudo .g-estudo .descreve-grupo{
+        margin: 0 auto;
+    }
+    .sec-estudo .cx-estudo .g-estudo .descreve-grupo h1{
+        font-size: 18px;
+    }
 }

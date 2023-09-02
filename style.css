@@ -301,3 +301,78 @@ body{
     background-color: #deb887;
     border: none;
 }
+
+
+/* Formatação da página Grupos de Estudo */
+.sec-estudo .cx-estudo{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.sec-estudo .cx-estudo .g-estudo{
+    width: 618px;
+    margin: 40px auto 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f7ddbc;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.sec-estudo .cx-estudo .g-estudo .capa-grupo{
+    width: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.sec-estudo .cx-estudo .g-estudo .capa-grupo img{
+    width: 100%;
+}
+
+.sec-estudo .cx-estudo .g-estudo .descreve-grupo{
+    margin: 0px 0px 0px 20px;
+}
+
+.sec-estudo .cx-estudo .g-estudo .descreve-grupo h1{
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.sec-estudo .cx-estudo .g-estudo .descreve-grupo p{
+    margin: 10px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    line-height: 1.5;
+}
+
+.sec-estudo .cx-estudo .g-estudo .descreve-grupo a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    margin: 10px 0px 0px 0px;
+    padding: 5px 10px;
+    border: solid 1px black;
+    border-radius: 3px;
+}
+.sec-estudo .cx-estudo .g-estudo .descreve-grupo a:hover{
+    background-color: #deb887;
+}
+
+
+
+footer{
+    height: 70px;
+    background-color: #deb887;
+}
+footer .cx-rodape{
+    width: 93%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+footer .cx-rodape p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
