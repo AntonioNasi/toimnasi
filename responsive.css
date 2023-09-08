@@ -53,9 +53,10 @@
 
 
     /* Formatação para a página blog mobile */
-
     .sec-blog .cx-artigo .artigo{
         width: 100%;
+        padding: 20px 10px;
+        margin: 40px auto 20px;
     }
 
     .sec-blog .cx-artigo .artigo h1{
@@ -67,8 +68,23 @@
     }
 
 
-    /* Formatação para grupos de estudo mobile */
+    /* Formatação para a página pesquisa mobile */
+    .sec-blog .cx-artigo .pesquisa{
+        width: 100%;
+        padding: 20px 10px;
+        margin: 40px auto 20px;
+    }
 
+    .sec-blog .cx-artigo .pesquisa h1{
+        font-size: 30px;
+    }
+
+    .sec-blog .cx-artigo .pesquisa p{
+        font-size: 20px;
+    }
+
+
+    /* Formatação para grupos de estudo mobile */
     .sec-estudo .cx-estudo{
         width: 93%;
         margin: 0 auto;
