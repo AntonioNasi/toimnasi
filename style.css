@@ -315,7 +315,7 @@ body{
 
 .sec-blog .cx-artigo .artigo{
     width: 638px;
-    margin: 40px auto 0px;
+    margin: 40px auto 40px;
     padding: 20px;
     border: solid 1px #deb887;
     border-radius: 20px;
