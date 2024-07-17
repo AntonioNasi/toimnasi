@@ -59,6 +59,35 @@ p, span, a{
     background-color: red;
 }
 
+.cx-menu nav{
+    display: flex;
+    max-width: 1024px;
+    height: 60px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.cx-menu nav .itens-menu-large{
+    height: 100%;
+     display: flex;
+}
+
+.cx-menu nav .itens-menu-large a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fcfbc7;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 20px 20px;
+}
+
+.cx-menu nav .itens-menu-large a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color .3s;
+}
+
 /*Configuração geral da seção de prévia de posts*/
 .sec-1{
     margin-top: 80px;
