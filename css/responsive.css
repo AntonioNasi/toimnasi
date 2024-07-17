@@ -1,0 +1,43 @@
+@media screen and (max-width:600px){
+    .sec-1 .cx-previa-post{
+        display: block;
+    }
+
+    .sec-1 .cx-previa-post a{
+        display: block;
+        height: auto;
+        margin: 0px 0px 40px 0px;
+    }
+
+    .sec-1 .cx-previa-post a .post{
+        display: block;
+        height: auto;
+
+        border: solid 1px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .sec-1 .cx-previa-post a .post .img-post{
+        width: 100%;
+        height: 50%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .sec-1 .cx-previa-post a .post .img-post img{
+        height: 360px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .sec-1 .cx-previa-post a .post .txt-post h1{
+        font-size: 26px;
+    }
+
+    .sec-1 .cx-previa-post a .post .txt-post{
+        width: 100%;
+        height: 300px;
+    }
+
+    .sec-1 .cx-previa-post a .post .txt-post p{
+        -webkit-line-clamp: 6;
+    }
+}
