@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #fcfbc7;
+    background-color: #ff0000;
     scroll-behavior: smooth;
 }
 
@@ -156,14 +156,17 @@ p, span, a{
 
 
 /*Configuração do menu*/
-.cx-menu{
-    height: 60px;
+.cx-menu1{
+    height: 20px;
     width: 100%;
-    margin-top: -2px;
-    background-color: red;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff0000;
 }
 
-.cx-menu nav{
+.cx-menu1 nav{
     display: flex;
     max-width: 1024px;
     height: 60px;
@@ -172,29 +175,137 @@ p, span, a{
     justify-content: center;
 }
 
-.cx-menu nav .itens-menu-large{
-    height: 100%;
-     display: flex;
+.cx-menu1 nav .itens-menu1{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    padding-bottom: 10px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #ff0000;
 }
 
-.cx-menu nav .itens-menu-large a{
+.cx-menu1 nav .itens-menu1 a{
     text-decoration: none;
-    text-transform: uppercase;
     color: #fcfbc7;
-    font-weight: 600;
-    font-size: 20px;
-    letter-spacing: 1px;
-    padding: 20px 20px;
+    display: block;
 }
 
-.cx-menu nav .itens-menu-large a:hover{
-    background-color: rgba(0, 0, 0, 0.3);
-    transition: background-color .3s;
+.cx-menu1 nav .itens-menu1 a span{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.cx-menu1 nav .itens-menu1 a p{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.cx-menu2{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.cx-menu2 #menu2 .itens-menu2{
+    display: flex;
+}
+
+.cx-menu2 #menu2 .itens-menu2 a{
+    display: block;
+    height: 140px;
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ff0000;
+    background-image: linear-gradient(45deg, #fcfbc7, #ffffff);
+    border-radius: 100%;
+    text-decoration: none;
+    color: red;
+    padding-top: 32px;
+    box-shadow: -10px 10px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.cx-menu2 #menu2 .itens-menu2 a:hover{
+    box-shadow: 10px -10px 10px 1px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(45deg, #ffffff, #fcfbc7);
+    transition: .4s;
+}
+
+.cx-menu2 #menu2 .itens-menu2 a:not(:last-child){
+    margin-right: 50px;
+}
+
+.cx-menu2 #menu2 .itens-menu2 a span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.cx-menu2 #menu2 .itens-menu2 a p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+
+.cx-bemvindo{
+    display: flex;
+    background-color: #fcfbc7;
+    margin: 100px auto 0px;
+    transform: rotate(-1deg);
+    padding: 5% 5%;
+}
+
+.cx-bemvindo .destaques{
+    height: 400px;
+    width: 50%;
+    border: solid 5px #ff0000;
+    border-radius: 20px;
+    transform: rotate(1deg);
+}
+.cx-bemvindo .bemvindo{
+    transform: rotate(1deg);
+    margin: 0 auto;
+    width: 50%;
+    padding-left: 40px;
+}
+
+.cx-bemvindo .bemvindo h2{
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: -1px;
+}
+
+.cx-bemvindo .bemvindo p{
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+
 
 /*Configuração geral da seção de prévia de posts*/
 .sec-1{
     margin-top: 80px;
+    background-color: #ff0000;
+    padding: 100px 0px 50px;
+}
+
+.sec-1 .sec1-title{
+    width: 90%;
+    margin: 0 auto 100px;
+}
+
+.sec-1 .sec1-title h1{
+    font-size: 60px;
+    color: #fcfbc7;
 }
 
 .sec-1 .cx-previa-post{
@@ -202,6 +313,9 @@ p, span, a{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+
+    background-color: #ff0000;
+    transform: rotate(3deg);
 }
 
 .sec-1 .cx-previa-post a{
