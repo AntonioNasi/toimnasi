@@ -7,9 +7,22 @@
         padding: 0px 40px;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: space-between;
     }
     .cx-menu2 #menu2 .itens-menu2 a{
-        margin-top: 20px;
+        margin: 20px 0px 5px;
+        width: 120px;
+        height: 120px;
+        padding-top: 15px;
+    }
+    .cx-menu2 #menu2 .itens-menu2 a:not(:last-child){
+        margin-right: 0px;
+    }
+    .cx-menu2 #menu2 .itens-menu2 a span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
     }
 
 
@@ -37,10 +50,17 @@
 
     .sec-1{
         margin: 0px;
-        padding: 40px 0px 40p;
+        padding: 40px 0px 40px;
+    }
+    .sec-1 .sec1-title{
+        margin: 0 auto 40px;
+    }
+    .sec-1 .sec1-title h1{
+        font-size: 40px;
     }
     .sec-1 .cx-previa-post{
         display: block;
+        transform: rotate(0deg);
     }
 
     .sec-1 .cx-previa-post a{
