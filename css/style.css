@@ -222,18 +222,17 @@ p, span, a{
     width: 140px;
     align-items: center;
     justify-content: center;
-    border: 1px solid #ff0000;
-    background-image: linear-gradient(45deg, #fcfbc7, #ffffff);
+    background-color: #fcfcfc;
     border-radius: 100%;
     text-decoration: none;
-    color: red;
+    color: #ff0000;
     padding-top: 32px;
-    box-shadow: -10px 10px 10px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 20px 50px #bd0000, -20px -20px 50px #ff2b2b;
 }
 
 .cx-menu2 #menu2 .itens-menu2 a:hover{
-    box-shadow: 10px -10px 10px 1px rgba(0, 0, 0, 0.1);
-    background-image: linear-gradient(45deg, #ffffff, #fcfbc7);
+    box-shadow: inset 3px 3px 8px #bd0000, -3px -3px 8px #ff2b2b;
+    border: solid 1px #ff0000;
     transition: .4s;
 }
 
@@ -315,7 +314,7 @@ p, span, a{
     flex-wrap: wrap;
 
     background-color: #ff0000;
-    transform: rotate(3deg);
+    transform: rotate(1deg);
 }
 
 .sec-1 .cx-previa-post a{
