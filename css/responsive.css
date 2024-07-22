@@ -102,6 +102,29 @@
     }
 }
 
+
+/* Slider */
+@media screen and (max-width:600px){
+    .slider{
+        width: 440px;
+        border-radius: 10px;
+    }
+    .slide{
+        width: 440px;
+        border-radius: 10px;
+    }
+    .slide img{
+        width: 440px;
+        border-radius: 10px;
+    }
+    .manual-navigation{
+        width: 440px;
+    }
+    .navigation-auto{
+        width: 440px;
+    }
+}
+
 @media screen and (min-width:600px){
     .cx-menu1 nav .itens-menu2{
         display: none;
