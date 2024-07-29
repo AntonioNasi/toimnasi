@@ -152,3 +152,149 @@ p, span, a{
     background-color: #fcfbc7;
 }
 */
+
+
+/*Configuração da tela inicial/boas vindas*/
+header .banner-video{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+header .banner-video video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+header .banner-video nav{
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+}
+header .banner-video nav .itens-menu1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+header .banner-video nav .itens-menu1 a{
+    text-decoration: none;
+    color: #ff0000;
+    text-align: center;
+    border: solid 1px #000000;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    padding: 3% 0% 0% 0%;
+    background-color: #fcfbc7;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+header .banner-video nav .itens-menu1 a:hover{
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transition: box-shadow .3s;
+}
+
+header .banner-video nav .itens-menu1 a:not(:last-child){
+    margin-right: 30px;
+}
+
+header .banner-video nav .itens-menu1 a span{
+    font-size: 40px;
+}
+
+header .banner-video nav .itens-menu1 a p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .banner-video .cx-boasvindas{
+    position: relative;
+    width: 90%;
+    margin: 12% auto 0%;
+}
+
+header .banner-video .cx-boasvindas h1{
+    font-size: 60px;
+    color: #fcfbc7;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+}
+
+header .banner-video .cx-boasvindas p{
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+header .banner-video .cx-mensagem{
+    position: relative;
+    width: 90%;
+    margin: 16% auto 0%;
+}
+
+header .banner-video .cx-mensagem p{
+    text-align: right;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fcfbc7;
+}
+
+
+
+.sec-1{
+    position: sticky;
+    height: 100vh;
+    background-color: #fcfbc7;
+}
+.sec-1 .cx-sec-1{
+    background-image: url(../assets/fundo-principal-up.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.sec-1 .cx-sec-1 .sec-1-conteudo{
+    width: 90%;
+    margin: 100px auto 0px;
+}
+
+.sec-1 .cx-sec-1 .sec-1-conteudo #title-sec1{
+    font-size: 45px;
+    color: #ff0000;
+}
+
+.sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts{
+    display: flex;
+    margin-top: 40px;
+}
+
+.sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts a{
+    background-color: rgba(0, 0, 0, 1);
+    height: 600px;
+    flex-basis: 600px;
+    border-radius: 15px;
+}
+
+.sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts a:not(:last-child){
+    margin-right: 40px;
+}
+
+.sec-1 .cx-sec-1 .sec-1-conteudo #posts-anteriores{
+    text-align: right;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.sec-1 .cx-sec-1 .sec-1-conteudo #posts-anteriores a{
+    text-decoration: none;
+    color: #000000;
+}
