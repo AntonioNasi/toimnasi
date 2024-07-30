@@ -275,14 +275,21 @@ header .banner-video .cx-mensagem p{
 
 .sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts{
     display: flex;
+    width: 100%;
     margin-top: 40px;
+    overflow-x: scroll;
 }
 
 .sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts a{
     background-color: rgba(0, 0, 0, 1);
+    display: block;
     height: 600px;
-    flex-basis: 600px;
+    min-width: 540px;
     border-radius: 15px;
+    text-decoration: none;
+    margin-bottom: 20px;
+
+    color: #fcfbc7;
 }
 
 .sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts a:not(:last-child){
