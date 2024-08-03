@@ -45,7 +45,7 @@ p, span, a{
 
 /*Configuração do slide
 .slider{
-    margin: 0 auto;
+    margin: 0 auto auto auto;;
     width: 1024px;
     height: 400px;
     overflow: hidden;
@@ -116,7 +116,7 @@ p, span, a{
     margin-left: -75%;
 }
 
-.navigation-auto div{
+.navigation auto auto auto div{
     border: 2px solid #ff0000;
     padding: 5px;
     border-radius: 10px;
@@ -124,7 +124,7 @@ p, span, a{
     transition: 1s;
 }
 
-.navigation-auto{
+.navigation auto auto auto{
     position: absolute;
     width: 1024px;
     margin-top: 360px;
@@ -132,23 +132,23 @@ p, span, a{
     justify-content: center;
 }
 
-.navigation-auto div:not(:last-child){
+.navigation auto auto auto div:not(:last-child){
     margin-right: 40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
+#radio1:checked ~ .navigation auto auto auto  auto auto auto-btn1{
     background-color: #fcfbc7;
 }
 
-#radio2:checked ~ .navigation-auto .auto-btn2{
+#radio2:checked ~ .navigation auto auto auto  auto auto auto-btn2{
     background-color: #fcfbc7;
 }
 
-#radio3:checked ~ .navigation-auto .auto-btn3{
+#radio3:checked ~ .navigation auto auto auto  auto auto auto-btn3{
     background-color: #fcfbc7;
 }
 
-#radio4:checked ~ .navigation-auto .auto-btn4{
+#radio4:checked ~ .navigation auto auto auto  auto auto auto-btn4{
     background-color: #fcfbc7;
 }
 */
@@ -181,7 +181,7 @@ header .banner-video nav .itens-menu1{
     justify-content: space-around;
     align-items: center;
     max-width: 90%;
-    margin: 0 auto;
+    margin: 0 auto auto auto;;
 }
 
 header .banner-video nav .itens-menu1 a{
@@ -219,7 +219,7 @@ header .banner-video nav .itens-menu1 a p{
 header .banner-video .cx-boasvindas{
     position: relative;
     width: 90%;
-    margin: 12% auto 0%;
+    margin: 12% auto auto auto;
 }
 
 header .banner-video .cx-boasvindas h1{
@@ -236,7 +236,7 @@ header .banner-video .cx-boasvindas p{
 header .banner-video .cx-mensagem{
     position: relative;
     width: 90%;
-    margin: 16% auto 0%;
+    margin: 16% auto auto auto;
 }
 
 header .banner-video .cx-mensagem p{
@@ -265,7 +265,7 @@ header .banner-video .cx-mensagem p{
 
 .sec-1 .cx-sec-1 .sec-1-conteudo{
     width: 90%;
-    margin: 100px auto 0px;
+    margin: 100px auto auto auto;
 }
 
 .sec-1 .cx-sec-1 .sec-1-conteudo #title-sec1{
@@ -275,16 +275,15 @@ header .banner-video .cx-mensagem p{
 
 .sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-top: 40px;
-    overflow-x: scroll;
 }
 
 .sec-1 .cx-sec-1 .sec-1-conteudo .ultimos-posts a{
     background-color: rgba(0, 0, 0, 1);
-    display: block;
     height: 600px;
-    min-width: 540px;
+    flex-basis: 544px;
     border-radius: 15px;
     text-decoration: none;
     margin-bottom: 20px;
@@ -304,4 +303,48 @@ header .banner-video .cx-mensagem p{
 .sec-1 .cx-sec-1 .sec-1-conteudo #posts-anteriores a{
     text-decoration: none;
     color: #000000;
+}
+
+
+
+
+/*Formatação da página blog*/
+header .banner-blog{
+    background-image: url(../assets/fundo-principal-up.png);
+    background-repeat: no-repeat;
+    background-size: 91%;
+    background-position: top right;
+}
+.sec-1-blog{
+    margin-top: -600px;
+}
+.sec-1-blog .cx-page-blog{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+.sec-1-blog .cx-page-blog .post-blog{
+    height: 440px;
+    background-color: rgba(0, 0, 0, 0.168);
+    border-radius: 50px;
+}
+
+
+
+.sec-1-blog .paginas-blog{
+    display: flex;
+    margin: 50px auto 50px;
+    flex-wrap: nowrap;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec-1-blog .paginas-blog a{
+    background-color: #ff0000;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #fcfbc7;
+    text-decoration: none;
 }
