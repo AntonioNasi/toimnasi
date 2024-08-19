@@ -155,20 +155,7 @@ p, span, a{
 
 
 /*Configuração da tela inicial/boas vindas*/
-header{
-    background-image: url(../assets/imagem-editada.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
 
-    animation: moverFundo 60s linear infinite;
-}
-@keyframes moverFundo {
-    0%{background-position: center;}
-    50%{background-position: bottom;}
-    100%{background-position: center;}
-}
 header .banner-video{
     width: 100%;
     height: 100vh;
@@ -195,12 +182,12 @@ header .banner-video nav .itens-menu1{
     justify-content: space-around;
     align-items: center;
     max-width: 90%;
-    margin: 0 auto auto auto;;
+    margin: 0 auto auto auto;
 }
 
 header .banner-video nav .itens-menu1 a{
     text-decoration: none;
-    color: #fcfbc7;
+    color: #000000;
     text-align: center;
     width: 120px;
     height: 70px;
@@ -214,25 +201,39 @@ header .banner-video nav .itens-menu1 a:hover{
 
 header .banner-video nav .itens-menu1 a:not(:last-child){
     margin-right: 0px;
-    border-right: solid 1px #fcfbc7;
+    border-right: solid 1px #000000;
 }
 
 header .banner-video nav .itens-menu1 a span{
     font-size: 40px;
+    font-weight: 200;
 }
 
 header .banner-video nav .itens-menu1 a p{
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 header .banner-video .cx-boasvindas{
-    position: relative;
-    width: 90%;
-    margin: 12% auto auto auto;
+    width: 100%;
+    height: 80vh;
+    margin: 2% auto auto auto;
+    background-image: url(../assets/imagem-editada.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border: solid 1px black;
 }
 
+header .banner-video .cx-boasvindas .txt-boas-vindas{
+    width: 90%;
+    margin: 0 auto;
+
+    border: solid 1px purple;
+}
 header .banner-video .cx-boasvindas h1{
     font-size: 60px;
     color: #fcfbc7;
