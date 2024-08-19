@@ -224,41 +224,49 @@ header .banner-video .cx-boasvindas{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-    border: solid 1px black;
+    border-top: solid 1px transparent;
 }
 
 header .banner-video .cx-boasvindas .txt-boas-vindas{
     width: 90%;
     margin: 0 auto;
-
-    border: solid 1px purple;
 }
-header .banner-video .cx-boasvindas h1{
+
+header .banner-video .cx-boasvindas .txt-boas-vindas .img-boas-v{
+    max-width: 130px;
+    margin: 60px auto 0px;
+}
+
+header .banner-video .cx-boasvindas .txt-boas-vindas .img-boas-v img{
+    width: 100%;
+}
+header .banner-video .cx-boasvindas .txt-boas-vindas h1{
     font-size: 60px;
     color: #fcfbc7;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+    text-align: center;
 }
 
-header .banner-video .cx-boasvindas p{
+header .banner-video .cx-boasvindas .txt-boas-vindas p{
     font-size: 30px;
     letter-spacing: -1px;
     color: #fcfbc7;
+    text-align: center;
 }
 
-header .banner-video .cx-mensagem{
-    position: relative;
+/*
+header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem{
     width: 90%;
-    margin: 16% auto auto auto;
+    margin: 5% auto auto auto;
 }
 
-header .banner-video .cx-mensagem p{
-    text-align: right;
+header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
+    text-align: center;
     font-size: 25px;
     font-weight: 600;
     color: #fcfbc7;
 }
-
+*/
 
 
 .sec-1{
@@ -312,6 +320,35 @@ header .banner-video .cx-mensagem p{
 .sec-1 .cx-sec-1 .sec-1-conteudo #posts-anteriores a{
     text-decoration: none;
     color: #000000;
+}
+
+
+/*Formatação da seção 2 */
+.sec-2{
+    position: sticky;
+    height: 100vh;
+    background-color: #ff0000;
+}
+.sec-2 .cx-sec-2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0px;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda{
+    width: 50%;
+    border-right: solid 1px #fcfbc7;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita{
+    width: 50%;
 }
 
 
