@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #fcfbc7;
     scroll-behavior: smooth;
@@ -340,16 +344,116 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     margin: 0 auto;
     display: flex;
     padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda{
     width: 50%;
-    border-right: solid 1px #fcfbc7;
+    padding-right: 100px;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda h2{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fcfbc7;
+}
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda p{
+    text-align: justify;
+    margin: 25px 0px;
+    color: #fcfbc7;
 }
 
 .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita{
     width: 50%;
 }
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo{
+    flex-basis: 50%;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo img{
+    width: 100%;
+}
+
+#gemesc{
+    padding-right: 25px;
+}
+#gim{
+    padding-left: 25px;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo a{
+    display: inline-block;
+    font-size: 15px;
+    background-color: #fcfbc7;
+    color: #ff0000;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+#link-gemesc{
+    margin: 5% 0% 0% 23%;
+}
+#link-gim{
+    margin: 5% 0% 0% 28%;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-outros-grupos{
+    margin: 60px 0px;
+}
+
+.accordion {
+    background-color: #fcfbc7;
+    color: #ff0000;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.4s;
+    border-radius: 10px 10px 0px 0px;
+}
+  
+.active, .accordion:hover {
+    background-color: #fcfbc7;
+}
+  
+.panel {
+    padding: 18px;
+    display: none;
+    background-color: transparent;
+    overflow: hidden;
+    border: solid 2px #fcfbc7;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 10px;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-outros-grupos .panel a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    font-size: 22px;
+    border-bottom: solid 1px #fcfbc7;
+    margin: 0px 0px 20px 0px;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-outros-grupos .panel a:hover{
+    color: #fcfbc7;
+    font-weight: 500;
+}
+
+
 
 
 
