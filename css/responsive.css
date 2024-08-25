@@ -9,8 +9,12 @@
         justify-content: center;
     }
     header .banner-video nav .itens-menu1 a{
-        height: 120px;
-        padding: 6% 0% 0% 0%;
+        height: 90px;
+        padding: 4% 0% 0% 0%;
+    }
+    header .banner-video nav .itens-menu1 a span{
+        font-size: 30px;
+        font-weight: 200;
     }
     header .banner-video nav .itens-menu1 a:hover{
         background-color: #ff0000;
@@ -22,8 +26,9 @@
     }
 
 
+    
     header .banner-video .cx-boasvindas{
-        margin: 0 auto;
+        margin: -40px auto 0px;
     }
     header .banner-video .cx-boasvindas .txt-boas-vindas .img-boas-v{
         max-width: 70px;
