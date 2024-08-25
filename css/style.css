@@ -223,7 +223,7 @@ header .banner-video .cx-boasvindas{
     width: 100%;
     height: 80vh;
     margin: 2% auto auto auto;
-    background-image: url(../assets/imagem-editada.jpg);
+    background-image: url(../assets/noite-sertao.png);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -481,46 +481,74 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 
 
 
-
-
-
-/*Formatação da página blog*/
-header .banner-blog{
-    background-image: url(../assets/fundo-principal-up.png);
-    background-repeat: no-repeat;
-    background-size: 91%;
-    background-position: top right;
+/*Formatação da seção 1 artigo */
+.sec-1-artigo{
+    width: auto;
+    height: auto;
+    margin: 50px 0px;
 }
-.sec-1-blog{
-    margin-top: -600px;
-}
-.sec-1-blog .cx-page-blog{
+.sec-1-artigo .cx-artigo{
     width: 90%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 50px;
 }
-.sec-1-blog .cx-page-blog .post-blog{
-    height: 440px;
-    background-color: rgba(0, 0, 0, 0.168);
-    border-radius: 50px;
+.sec-1-artigo .cx-artigo article{
+    max-width: 618px;
+    margin: 0 auto;
+}
+.sec-1-artigo .cx-artigo article h1{
+    color: #ff0000;
+    font-size: 45px;
+}
+.sec-1-artigo .cx-artigo article figure{
+    margin: 30px 0px;
+    height: 300px;
+}
+.sec-1-artigo .cx-artigo article figure img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+.sec-1-artigo .cx-artigo article p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 
 
-.sec-1-blog .paginas-blog{
+.footer{
+    border-top: solid 5px #ff0000;
+    background-color: #fcfbc7;
+    height: auto;
+}
+.footer .cx-footer{
+    width: 90%;
+    margin: 0 auto;
     display: flex;
-    margin: 50px auto 50px;
+    padding: 50px 0px;
     flex-wrap: nowrap;
-    width: 15%;
-    align-items: center;
-    justify-content: space-between;
 }
-.sec-1-blog .paginas-blog a{
-    background-color: #ff0000;
-    padding: 15px 20px;
-    border-radius: 10px;
-    color: #fcfbc7;
+.footer .cx-footer .item-footer{
+    width: 33%;
+    padding: 0px 10px;
+}
+.footer .cx-footer .item-footer:nth-child(1){
+    text-align: right;
+}
+.footer .cx-footer .item-footer:nth-child(2){
+    text-align: center;
+}
+.footer .cx-footer .item-footer h3{
+    font-size: 20px;
+}
+.footer .cx-footer .item-footer a{
+    font-size: 18px;
+    display: block;
     text-decoration: none;
+    color: #ff0000;
+}
+.footer .cx-footer .item-footer p{
+    font-size: 18px;
+    color: #ff0000;
 }
