@@ -331,24 +331,39 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     width: 50%;
     margin-left: 40px;
 }
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog ol li{
-    list-style: inside;
-    list-style-type: none;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog ol li a{
-    text-decoration: none;
-    display: block;
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog h3{
     color: #ff0000;
     font-size: 25px;
-    font-weight: 900;
-    letter-spacing: 0px;
-    border-bottom: solid 1px #000000;
-    margin: 10px 0px;
-    padding: 0px 0px 10px 0px;
+    font-weight: 700;
+    margin: 0px 0px 25px 0px;
 }
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog ol li p{
-    font-size: 20px;
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .cx-outros-textos{
+    width: 100%;
 }
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+
+    border: solid 1px #ff0000;
+}
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .img-outro-texto{
+    width: 25%;
+    margin-right: 5%;
+}
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .img-outro-texto img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto{
+    width: 70%;
+}
+
 
 
 
