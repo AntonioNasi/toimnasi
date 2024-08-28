@@ -331,9 +331,9 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     width: 50%;
     margin-left: 40px;
 }
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog h3{
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog h2{
     color: #ff0000;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 700;
     margin: 0px 0px 25px 0px;
 }
@@ -348,6 +348,8 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     border-radius: 10px;
     padding: 10px;
     margin: 0px 0px 20px 0px;
+    text-decoration: none;
+    color: #000000;
 
     border: solid 1px #ff0000;
 }
@@ -359,9 +361,17 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     width: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px 0px 0px 10px;
 }
 .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto{
     width: 70%;
+}
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto p{
+    font-size: 20px;
 }
 
 

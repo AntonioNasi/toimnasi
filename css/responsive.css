@@ -66,11 +66,15 @@
         width: 100%;
         margin-left: 0px;
     }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog ol li a{
-        font-size: 20px;
+    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog h2{
+        font-size: 25px;
     }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog ol li p{
+    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto h3{
         font-size: 18px;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto p{
+        font-size: 16px;
+        display: none;
     }
 
 
