@@ -62,6 +62,15 @@
         color: #ff0000;
         font-size: 25px;
     }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog figure{
+        height: 300px;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog figure img{
+        height: 300px;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog p{
+        font-size: 20px;
+    }
     .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog{
         width: 100%;
         margin-left: 0px;
@@ -106,24 +115,25 @@
         width: 100%;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos{
-        display: block;
         margin: 0 auto;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo{
         width: 100%;
-        margin: 0 auto 40px;
+        margin: 0 auto 0px;
     }
     #gemesc{
         padding-right: 0px;
+        margin-right: 10px;
     }
     #gim{
         padding-left: 0px;
+        margin-left: 10px;
     }
     #link-gemesc{
-        margin: 5% 0% 0% 23%;
+        margin: 5% 5% 0% 18%;
     }
     #link-gim{
-        margin: 5% 0% 0% 23%;
+        margin: 5% 0% 0% 20%;
     }
 
 

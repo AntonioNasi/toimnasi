@@ -355,10 +355,12 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 }
 .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .img-outro-texto{
     width: 25%;
+    height: 100%;
     margin-right: 5%;
 }
 .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .img-outro-texto img{
     width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     border-radius: 10px 0px 0px 10px;
@@ -442,12 +444,12 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo a{
     display: inline-block;
     font-size: 15px;
-    background-color: #fcfbc7;
-    color: #ff0000;
-    font-weight: 500;
+    color: #fcfbc7;
+    font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
     padding: 8px 15px;
+    border: solid 1px #fcfbc7;
     border-radius: 10px;
 }
 #link-gemesc{
@@ -462,12 +464,12 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 }
 
 .accordion {
-    background-color: #fcfbc7;
-    color: #ff0000;
+    background-color: transparent;
+    color: #fcfbc7;
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border: solid 1px #fcfbc7;
     text-align: left;
     outline: none;
     font-size: 22px;
@@ -477,7 +479,7 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 }
   
 .active, .accordion:hover {
-    background-color: #fcfbc7;
+    background-color: rgb(208, 0, 0);
 }
   
 .panel {
