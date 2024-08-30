@@ -137,7 +137,21 @@
     }
 
 
-    .sec-1-artigo .cx-artigo article h1{
+    #header-blog{
+        height: 200px;
+    }
+    .sec-1-artigo .cx-artigo article figure{
+        height: 300px;
+    }
+    .sec-1-artigo .cx-artigo article figure img{
+        height: 300px;
+    }
+    .sec-1-artigo .cx-artigo article .cx-titulo{
+        width: 90%;
+        margin: -90px auto 40px;
+        padding: 15px;
+    }
+    .sec-1-artigo .cx-artigo article .cx-titulo h1{
         font-size: 25px;
     }
     .sec-1-artigo .cx-artigo article p{
