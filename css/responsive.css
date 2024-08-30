@@ -155,10 +155,13 @@
         font-size: 25px;
     }
     .sec-1-artigo .cx-artigo article p{
-        margin-bottom: 18px;
+        margin-bottom: 16px;
         line-height: 1.5;
         text-align: justify;
         hyphens: auto;
+    }
+    .sec-1-artigo .cx-artigo article .nota-rodape p{
+        font-size: 14px;
     }
 
 
