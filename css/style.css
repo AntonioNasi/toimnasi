@@ -351,6 +351,7 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     margin: 0px 0px 20px 0px;
     text-decoration: none;
     color: #000000;
+    height: 160px;
 
     border: solid 1px #ff0000;
 }
@@ -455,10 +456,10 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     border-radius: 10px;
 }
 #link-gemesc{
-    margin: 5% 0% 0% 32%;
+    margin: 5% 0% 0% 35%;
 }
 #link-gim{
-    margin: 5% 0% 0% 38%;
+    margin: 5% 0% 0% 40%;
 }
 
 .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-outros-grupos{
