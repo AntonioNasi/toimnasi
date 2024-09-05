@@ -29,6 +29,7 @@
     
     header .banner-video .cx-boasvindas{
         margin: -40px auto 0px;
+        height: 60vh;
     }
     header .banner-video .cx-boasvindas .txt-boas-vindas .img-boas-v{
         max-width: 70px;
@@ -77,6 +78,9 @@
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog h2{
         font-size: 25px;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto{
+        height: 90px;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto h3{
         font-size: 18px;
