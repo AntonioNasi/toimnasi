@@ -232,7 +232,7 @@ header .banner-video .cx-boasvindas{
     width: 100%;
     height: 540px;
     margin: 4% auto auto auto;
-    background-image: url(../assets/feclesc\ quixadá.png);
+    background-color: #4b0082;
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
@@ -241,43 +241,42 @@ header .banner-video .cx-boasvindas{
 }
 
 header .banner-video .cx-boasvindas #eniteessc{
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%;
+    text-decoration: none;
+    align-items: center;
 }
 
-header .banner-video .cx-boasvindas .txt-boas-vindas{
+header .banner-video .cx-boasvindas #eniteessc .cont-banner{
     width: 90%;
     margin: 0 auto;
 }
-
-header .banner-video .cx-boasvindas .txt-boas-vindas .img-boas-v{
-    max-width: 100px;
-    margin: 60px auto 0px;
-}
-
-header .banner-video .cx-boasvindas .txt-boas-vindas .img-boas-v img{
-    width: 100%;
-}
-header .banner-video .cx-boasvindas .txt-boas-vindas h1{
-    font-size: 60px;
-    color: #fcfbc7;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, .5);
+header .banner-video .cx-boasvindas #eniteessc .cont-banner h1{
     text-align: center;
+    color: #ecf0f1;
+    font-size: 90px;
 }
-
-header .banner-video .cx-boasvindas .txt-boas-vindas p{
-    font-size: 30px;
-    letter-spacing: -1px;
-    color: #fcfbc7;
+header .banner-video .cx-boasvindas #eniteessc .cont-banner p{
     text-align: center;
+    color: #ecf0f1;
 }
 
 header .chamada-principal{
     width: 90%;
     margin: 40px auto 0px;
+    color: #4b0082;
+}
 
-    border: solid 1px black;
+header .chamada-principal h2{
+    text-align: center;
+    font-size: 33px;
+    letter-spacing: -1px;
+    font-weight: 900;
+}
+header .chamada-principal p{
+    text-align: center;
+    font-weight: 300;
 }
 
 /*
