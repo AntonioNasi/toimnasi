@@ -5,13 +5,14 @@
     header .banner-video nav .itens-menu1{
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
-        justify-content: space-between;
+        width: 50%;
+        justify-content: space-around;
         align-items: center;
     }
     header .banner-video nav .itens-menu1 a{
         height: 80px;
         width: 80px;
+        margin-bottom: 20px;
     }
     header .banner-video nav .itens-menu1 a:not(:last-child){
         margin-right: 0px;
@@ -21,7 +22,7 @@
 
     
     header .banner-video .cx-boasvindas{
-        margin: -100px auto 0px;
+        margin: -50px auto 0px;
         height: 60vh;
     }
     header .banner-video .cx-boasvindas #eniteessc .cont-banner h1{
