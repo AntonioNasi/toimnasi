@@ -1,17 +1,20 @@
 @media screen and (max-width:600px){
+    header{
+        height: 90vh;
+    }
     header .banner-video nav{
-        height: 30vh;
+        height: auto;
     }
     header .banner-video nav .itens-menu1{
         display: flex;
         flex-wrap: wrap;
-        width: 50%;
+        width: 90%;
         justify-content: space-around;
         align-items: center;
     }
     header .banner-video nav .itens-menu1 a{
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         margin-bottom: 20px;
     }
     header .banner-video nav .itens-menu1 a:not(:last-child){
@@ -21,16 +24,25 @@
 
 
     
-    header .banner-video .cx-boasvindas{
-        margin: -50px auto 0px;
+    header .banner-video{
         height: 60vh;
     }
+    header .banner-video .cx-boasvindas{
+        margin: 30px auto 0px;
+        height: 100%;
+    }
     header .banner-video .cx-boasvindas #eniteessc .cont-banner h1{
-        font-size: 65px;
+        font-size: 40px;
     }
     header .banner-video .cx-boasvindas #eniteessc .cont-banner p{
         font-weight: 300;
+        font-size: 20px;
     }
+
+    header .chamada-principal{
+        margin-top: 40px;
+    }
+
     header .chamada-principal h2{
         font-size: 28px;
     }
@@ -42,7 +54,7 @@
     .sec-1{
         height: auto;
         background-color: #fcfbc7;
-        margin: 50px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
     .sec-1 .cx-sec-1{
         display: block;
