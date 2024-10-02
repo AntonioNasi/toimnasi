@@ -296,7 +296,7 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 .sec-1{
     position: sticky;
     height: 100vh;
-    background-color: #fcfbc7;
+    background-image: linear-gradient(45deg, #ecf0f1, transparent, transparent)
 }
 .sec-1 .cx-sec-1{
     height: 100vh;
@@ -309,94 +309,30 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     flex-wrap: nowrap;
     width: 90%;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
 }
-.sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog{
-    width: 50%;
-    margin-right: 40px;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog a{
-    text-decoration: none;
-    color: unset;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog h1{
-    color: #ff0000;
-    font-size: 45px;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog figure{
-    width: 100%;
-    height: 400px;
-    margin: 30px 0px;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog figure img{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog #lerMais{
-    background-color: #ff0000;
-    display: inline-block;
-    padding: 8px 15px;
-    margin: 30px 0px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    color: #fcfbc7;
-}
-
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog{
-    width: 50%;
-    margin-left: 40px;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog h2{
-    color: #ff0000;
-    font-size: 30px;
-    font-weight: 800;
-    letter-spacing: -1px;
-    margin: 0px 0px 25px 0px;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .cx-outros-textos{
-    width: 100%;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto{
+.sec-1 .cx-sec-1 .sec-1-conteudo .previa-art{
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
+    width: 600px;
+    height: 240px;
+    margin-right: 20px;
+    border: solid 1px #4b0082;
     padding: 10px;
-    margin: 0px 0px 20px 0px;
-    text-decoration: none;
-    color: #000000;
-    height: 160px;
-
-    border: solid 1px #ff0000;
+    border-radius: 10px;
 }
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .img-outro-texto{
-    width: 25%;
+.sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .img-art{
+    width: 40%;
     height: 100%;
-    margin-right: 5%;
 }
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .img-outro-texto img{
+.sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .img-art img{
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px;
 }
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto{
-    width: 70%;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto h3{
-    font-size: 25px;
-    font-weight: 900;
-    color: #ff0000;
-}
-.sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto p{
-    font-size: 20px;
+.sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art{
+    width: 60%;
+    margin-left: 15px;
 }
 
 
