@@ -205,12 +205,12 @@ header .banner-video nav .itens-menu1 a{
     align-items: center;
     justify-content: center;
 
-    background-color: #4b0082;
+    background-color: #cd0000;
 }
 
 header .banner-video nav .itens-menu1 a:hover{
-    background-color: #f3a712;
-    box-shadow: 2px 2px 5px #4b0082;
+    background-color: #ffd800;
+    box-shadow: 2px 2px 5px #cd0000;
     transition: box-shadow .3s;
 }
 
@@ -231,7 +231,7 @@ header .banner-video .cx-boasvindas{
     width: 100%;
     height: 540px;
     margin: 4% auto auto auto;
-    background-color: #4b0082;
+    background-color: #cd0000;
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
@@ -264,7 +264,7 @@ header .banner-video .cx-boasvindas #eniteessc .cont-banner p{
 header .chamada-principal{
     width: 90%;
     margin: 40px auto 0px;
-    color: #4b0082;
+    color: #cd0000;
 }
 
 header .chamada-principal h2{
@@ -305,7 +305,7 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 }
 
 .sec-1 .cx-sec-1 .titulo-da-sec{
-    background-color: #4b0082;
+    background-color: #cd0000;
     height: 240px;
     display: flex;
     justify-content: center;
@@ -330,7 +330,7 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 
 .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .icone-sec p{
     font-weight: 900;
-    color: #4b0082;
+    color: #cd0000;
 }
 
 .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .txt-sec{
@@ -350,13 +350,13 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
     width: 100%;
     height: 200px;
     margin-right: 30px;
-    border: solid 1px #4b0082;
+    border: solid 1px #cd0000;
     padding: 10px;
     border-radius: 13px;
     text-decoration: none;
 }
 .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art:hover{
-    box-shadow: 2px 2px 8px #4c008264;
+    box-shadow: 2px 2px 8px #cd000052;
     background-color: #ffffff;
     transition: background-color .3s;
 }
@@ -379,10 +379,12 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art h2{
     font-weight: 900;
     font-size: 24px;
+    color: #cd0000;
 }
 .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art p{
     font-weight: normal;
     font-size: 20px;
+    color: #cd0000;
 }
 
 
@@ -393,127 +395,106 @@ header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
 .sec-2{
     position: sticky;
     height: 100vh;
-    background-color: #ff0000;
+    background-color: #ecf0f1;
 }
 .sec-2 .cx-sec-2{
-    height: 100vh;
+    height: auto;
     width: 100%;
+}
+
+.sec-2 .cx-sec-2 .titulo-da-sec2{
+    background-color: #cd0000;
+    height: 240px;
     display: flex;
+    justify-content: center;
+}
+
+.sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .icone-sec2{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ecf0f1;
+    border-radius: 100%;
+}
+
+.sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .icone-sec2 p{
+    font-weight: 900;
+    color: #cd0000;
+}
+
+.sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2{
+    color: #ecf0f1;
+    margin-left: 20px;
 }
 
 .sec-2 .cx-sec-2 .sec-2-conteudo{
     width: 90%;
-    margin: 0 auto;
+    margin: 60px auto 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo{
     display: flex;
-    padding: 50px 0px;
     align-items: center;
-    justify-content: center;
 }
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda{
-    width: 50%;
-    padding-right: 100px;
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo{
+    width: 30%;
 }
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda h2{
-    font-size: 40px;
-    font-weight: 900;
-    color: #fcfbc7;
-}
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda p{
-    text-align: justify;
-    margin: 25px 0px;
-    color: #fcfbc7;
-}
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita{
-    width: 50%;
-}
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo{
-    flex-basis: 50%;
-}
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo img{
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo img{
     width: 100%;
 }
 
-#gemesc{
-    padding-right: 25px;
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo{
+    width: 70%;
+    padding-left: 20px;
 }
-#gim{
-    padding-left: 25px;
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo h2{
+    font-weight: 900;
+    color: #cd0000;
+    font-size: 28px;
 }
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo a{
-    display: inline-block;
-    font-size: 15px;
-    color: #fcfbc7;
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo p{
+    font-size: 22px;
+    color: #cd0000;
+    margin: 10px 0px;
+}
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo h3{
+    color: #cd0000;
     font-weight: 700;
+    letter-spacing: -1px;
+    font-size: 22px;
+}
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo a{
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 8px 15px;
-    border: solid 1px #fcfbc7;
+    font-weight: 700;
+    font-size: 20px;
+    color: #ecf0f1;
+    display: inline-block;
+    margin: 10px 0px 0px;
+    background-color: #cd0000;
+    border: solid 1px #cd0000;
+    padding: 5px 15px;
     border-radius: 10px;
 }
-#link-gemesc{
-    margin: 5% 0% 0% 35%;
-}
-#link-gim{
-    margin: 5% 0% 0% 40%;
-}
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-outros-grupos{
-    margin: 60px 0px;
+.sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo a:hover{
+    background-color: #ffd800;
+    color: #cd0000;
+    border: none;
+    box-shadow: 2px 2px 8px #cd0000;
 }
 
-.accordion {
-    background-color: transparent;
-    color: #fcfbc7;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: solid 1px #fcfbc7;
-    text-align: left;
-    outline: none;
-    font-size: 22px;
-    font-weight: 700;
-    transition: 0.4s;
-    border-radius: 10px 10px 0px 0px;
-}
-  
-.active, .accordion:hover {
-    background-color: rgb(208, 0, 0);
-}
-  
-.panel {
-    padding: 18px;
-    display: none;
-    background-color: transparent;
-    overflow: hidden;
-    border: solid 2px #fcfbc7;
-    border-radius: 0px 0px 10px 10px;
-    margin-top: 10px;
-}
 
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-outros-grupos .panel a{
-    text-decoration: none;
-    color: #000000;
-    display: block;
-    font-size: 22px;
-    border-bottom: solid 1px #fcfbc7;
-    margin: 0px 0px 20px 0px;
-}
-
-.sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-outros-grupos .panel a:hover{
-    color: #fcfbc7;
-    font-weight: 500;
-}
 
 
 
