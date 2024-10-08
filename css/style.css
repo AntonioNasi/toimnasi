@@ -163,29 +163,11 @@ p, span, a{
 header{
     height: 100vh;
 }
-
-header .banner-video{
-    width: 100%;
-    height: 80vh;
-    overflow: hidden;
-    align-items: center;
-    justify-content: center;
-}
-
-header .banner-video video{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-}
-
-header .banner-video nav{
-    position: relative;
+header nav{
     display: flex;
     margin-top: 30px;
 }
-header .banner-video nav .itens-menu1{
+header nav .itens-menu1{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,7 +175,7 @@ header .banner-video nav .itens-menu1{
     margin: 0 auto auto auto;
 }
 
-header .banner-video nav .itens-menu1 a{
+header nav .itens-menu1 a{
     text-decoration: none;
     color: #000000;
     text-align: center;
@@ -208,29 +190,29 @@ header .banner-video nav .itens-menu1 a{
     background-color: #cd0000;
 }
 
-header .banner-video nav .itens-menu1 a:hover{
+header nav .itens-menu1 a:hover{
     background-color: #ffd800;
     box-shadow: 2px 2px 5px #cd0000;
     transition: box-shadow .3s;
 }
 
-header .banner-video nav .itens-menu1 a:not(:last-child){
+header nav .itens-menu1 a:not(:last-child){
     margin-right: 0px;
 }
 
-header .banner-video nav .itens-menu1 a img{
+header nav .itens-menu1 a img{
     width: 55%;
     filter:brightness(100%);
 }
 
-header .banner-video nav .itens-menu1 a p{
+header nav .itens-menu1 a p{
     display: none;
 }
 
-header .banner-video .cx-boasvindas{
+header .cx-boasvindas{
     width: 100%;
     height: 540px;
-    margin: 4% auto auto auto;
+    margin: 0% auto auto auto;
     background-color: #cd0000;
     background-attachment: scroll;
     background-position: center;
@@ -239,7 +221,7 @@ header .banner-video .cx-boasvindas{
     border-top: solid 1px transparent;
 }
 
-header .banner-video .cx-boasvindas #eniteessc{
+header .cx-boasvindas #eniteessc{
     display: flex;
     width: 100%;
     height: 100%;
@@ -247,16 +229,16 @@ header .banner-video .cx-boasvindas #eniteessc{
     align-items: center;
 }
 
-header .banner-video .cx-boasvindas #eniteessc .cont-banner{
+header .cx-boasvindas #eniteessc .cont-banner{
     width: 90%;
     margin: 0 auto;
 }
-header .banner-video .cx-boasvindas #eniteessc .cont-banner h1{
+header .cx-boasvindas #eniteessc .cont-banner h1{
     text-align: center;
     color: #ecf0f1;
     font-size: 90px;
 }
-header .banner-video .cx-boasvindas #eniteessc .cont-banner p{
+header .cx-boasvindas #eniteessc .cont-banner p{
     text-align: center;
     color: #ecf0f1;
 }
