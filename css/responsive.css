@@ -1,40 +1,38 @@
 @media screen and (max-width:600px){
     header{
-        height: 90vh;
+        height: 100vh;
     }
-    header .banner-video nav{
+    header nav{
         height: auto;
     }
-    header .banner-video nav .itens-menu1{
+    header nav .itens-menu1{
         display: flex;
         flex-wrap: wrap;
         width: 90%;
         justify-content: space-around;
         align-items: center;
     }
-    header .banner-video nav .itens-menu1 a{
+    header nav .itens-menu1 a{
         height: 70px;
         width: 70px;
         margin-bottom: 20px;
     }
-    header .banner-video nav .itens-menu1 a:not(:last-child){
+    header nav .itens-menu1 a:not(:last-child){
         margin-right: 0px;
         border-right: none;
     }
 
 
     
-    header .banner-video{
-        height: 60vh;
-    }
-    header .banner-video .cx-boasvindas{
+    
+    header .cx-boasvindas{
         margin: 30px auto 0px;
-        height: 100%;
+        height: 55%;
     }
-    header .banner-video .cx-boasvindas #eniteessc .cont-banner h1{
+    header .cx-boasvindas #eniteessc .cont-banner h1{
         font-size: 40px;
     }
-    header .banner-video .cx-boasvindas #eniteessc .cont-banner p{
+    header .cx-boasvindas #eniteessc .cont-banner p{
         font-weight: 300;
         font-size: 20px;
     }

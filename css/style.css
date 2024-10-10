@@ -171,7 +171,7 @@ header nav .itens-menu1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 25%;
+    width: 30%;
     margin: 0 auto auto auto;
 }
 
@@ -209,10 +209,19 @@ header nav .itens-menu1 a p{
     display: none;
 }
 
+header nav .itens-menu1 a #comuna-simbol{
+    animation: comuna 3s 1s infinite;
+}
+@keyframes comuna {
+    0%{transform: rotate(0deg); opacity: 0;}
+    50%{transform: rotate(360deg); opacity: 100;}
+    100%{transform: rotate(0deg); opacity: 0;}
+}
+
 header .cx-boasvindas{
     width: 100%;
     height: 540px;
-    margin: 0% auto auto auto;
+    margin: 5% auto auto auto;
     background-color: #cd0000;
     background-attachment: scroll;
     background-position: center;
@@ -260,19 +269,6 @@ header .chamada-principal p{
     font-weight: 300;
 }
 
-/*
-header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem{
-    width: 90%;
-    margin: 5% auto auto auto;
-}
-
-header .banner-video .cx-boasvindas .txt-boas-vindas .cx-mensagem p{
-    text-align: center;
-    font-size: 25px;
-    font-weight: 600;
-    color: #fcfbc7;
-}
-*/
 
 
 .sec-1{
