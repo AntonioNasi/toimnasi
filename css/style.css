@@ -209,22 +209,13 @@ header nav .itens-menu1 a p{
     display: none;
 }
 
-header nav .itens-menu1 a #comuna-simbol{
-    animation: comuna 3s 1s infinite;
-}
-@keyframes comuna {
-    0%{transform: rotate(0deg); opacity: 0;}
-    50%{transform: rotate(360deg); opacity: 100;}
-    100%{transform: rotate(0deg); opacity: 0;}
-}
-
 header .cx-boasvindas{
     width: 100%;
     height: 540px;
     margin: 5% auto auto auto;
-    background-color: #cd0000;
-    background-attachment: scroll;
-    background-position: center;
+    background-image: url(../assets/imagem-editada.jpg);
+    background-attachment: fixed;
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     border-top: solid 1px transparent;
@@ -578,4 +569,48 @@ header .chamada-principal p{
 .footer .cx-footer .item-footer p{
     font-size: 18px;
     color: #ff0000;
+}
+
+
+
+/*Formatação da página de texto */
+.sec-texto{
+    margin-bottom: 60px;
+}
+.sec-texto .cx-texto{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.sec-texto .cx-texto article{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sec-texto .cx-texto article img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.sec-texto .cx-texto article h1{
+    text-align: center;
+    background-color: #cd0000;
+    display: block;
+    position: sticky;
+    width: 90%;
+    margin: -40px auto 40px;
+    padding: 20px 10px;
+    color: #ecf0f1;
+    border-radius: 10px;
+}
+
+.sec-texto .cx-texto article p{
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
 }
