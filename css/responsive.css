@@ -49,52 +49,47 @@
     }
 
 
-    .sec-1{
+    .sec-1 .cx-sec-1 .titulo-da-sec{
         height: auto;
-        background-color: #fcfbc7;
-        margin: 0px 0px 0px 0px;
+        padding: 20px 0px;
     }
-    .sec-1 .cx-sec-1{
-        display: block;
-        height: auto;
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .icone-sec{
+        width: 70px;
+        height: 70px;
+        padding: 5px;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .txt-sec h1{
+        font-size: 23px;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .txt-sec p{
+        font-size: 20px;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo{
         display: block;
+        margin-top: 100px;
     }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog{
+    .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art{
+        display: block;
+        margin-bottom: 80px;
+        height: 240px;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .img-art{
+        border-radius: 20px;
+        width: 80%;
+        height: 120px;
+        margin: -70px auto 0px;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art{
         width: 100%;
-        margin-right: 0px;
+        margin: 10px 0px 0px;
     }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog h1{
-        color: #ff0000;
-        font-size: 25px;
+    .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art h2{
+        text-align: center;
     }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog figure{
-        height: 300px;
+    .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art p{
+        text-align: center;
     }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog figure img{
-        height: 300px;
-    }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divEsquerdaBlog p{
-        font-size: 20px;
-    }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog{
-        width: 100%;
-        margin-left: 0px;
-    }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog h2{
-        font-size: 25px;
-    }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto{
-        height: 90px;
-    }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto h3{
-        font-size: 18px;
-    }
-    .sec-1 .cx-sec-1 .sec-1-conteudo .divDireitaBlog .outro-texto .out-texto p{
-        font-size: 16px;
-        display: none;
-    }
+    
 
 
     .sec-2{

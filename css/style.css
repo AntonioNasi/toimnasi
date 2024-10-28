@@ -537,7 +537,7 @@ header .chamada-principal p{
 
 .footer{
     border-top: solid 5px #ff0000;
-    background-color: #fcfbc7;
+    background-color: #cd0000;
     height: auto;
 }
 .footer .cx-footer{
@@ -559,16 +559,17 @@ header .chamada-principal p{
 }
 .footer .cx-footer .item-footer h3{
     font-size: 20px;
+    color: #ecf0f1;
 }
 .footer .cx-footer .item-footer a{
     font-size: 18px;
     display: block;
     text-decoration: none;
-    color: #ff0000;
+    color: #ecf0f1;
 }
 .footer .cx-footer .item-footer p{
     font-size: 18px;
-    color: #ff0000;
+    color: #ecf0f1;
 }
 
 
