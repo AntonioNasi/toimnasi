@@ -170,6 +170,21 @@
     }
 
 
+    /*Formatação responsiva - página do artigo*/
+    .sec-texto .cx-texto article{
+        width: 100%;
+    }
+    .sec-texto .cx-texto article h1{
+        margin: -50px auto 40px;
+        font-size: 24px;
+    }
+    .sec-texto .cx-texto article p{
+        font-size: 20px;
+    }
+
+
+
+
     .footer .cx-footer{
         width: 90%;
         margin: 0 auto;
