@@ -67,7 +67,7 @@
         <!---------------------------------
             Carrega o fav icone do site
         ----------------------------------->
-        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AntonioNasi/Classista/main/favicon.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AntonioNasi/toimnasi/main/assets/favicon.png"/>
 
         <!---------------------------------
             Carrega HTML externo
@@ -78,8 +78,7 @@
             $(function () {
                 $('#menu').load("../html/menu.html");
                 $('#menu2').load("../html/menu2.html");
-                $('#slideshow').load("../html/slide.html");
-                $('#footer').load("../footer.html");
+                $('#footer').load("../html/footer.html");
             });
         </script>
 
@@ -111,40 +110,112 @@
     <body>
 
         <header>
-            <div class="banner-video banner-blog">
-                <!--
-                <video muted autoplay loop>
-                    <source src="../assets/video-teste.mp4">
-                </video>
-                -->
-                <nav class="cx-menu" id="menu"></nav>
-                <!--
-                <div class="cx-boasvindas">
-                    <h1>Seja bem vindo</h1>
-                    <p>Este é um site pessoal com reflexões classistas <br> não necessariamente acadêmicas.</p>
-                </div>
-                <div class="cx-mensagem">
-                    <p>"Os filósofos se preocuparam em <br> entender o mundo, mas o que <br> importa é transformá-lo" _Marx.</p>
-                </div>
-                -->
+            
+            <nav class="cx-menu" id="menu"></nav>
+
+            <div class="cx-boasvindas">
+
+                <a id="eniteessc" href="#">
+
+                    <!--
+                    <div class="cont-banner">
+                        <h1>IV ENITEESSC</h1>
+                        <p> Clique aqui para se inscrever! </p>
+                    </div>
+                    -->
+
+                </a>
+
             </div>
+
+            <div class="chamada-principal">
+                <h2>Reflexões classistas sobre o cotidiano</h2>
+                <p>Este site tem um viés, o viés da classe trabalhadora, da superação do capital e da revolução socialista.</p>
+            </div>
+
         </header>
 
-        <section class="sec-1-blog">
-            <div class="cx-page-blog">
-                <a href="#" class="post-blog"></a>
-                <a href="#" class="post-blog"></a>
-                <a href="#" class="post-blog"></a>
-                <a href="#" class="post-blog"></a>
-                <a href="#" class="post-blog"></a>
-                <a href="#" class="post-blog"></a>
-            </div>
-            <div class="paginas-blog">
-                <a href="#">1</a>
-                <a href="#">2</a>
-                <a href="#">3</a>
-                <a href="#">4</a>
-                <a href="#">5</a>
+        <section class="sec-1" id="blog">
+            <div class="cx-sec-1">
+
+                <div class="titulo-da-sec">
+
+                    <div class="cx-cont-title-sec">
+                        <div class="icone-sec">
+                            <p>Blog</p>
+                        </div>
+    
+                        <div class="txt-sec">
+                            <h1>Reflexões não acadêmicas</h1>
+                            <p>Aprecie com moderação</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="sec-1-conteudo">
+
+                    <a class="previa-art" href="./artigo-modelo.html">
+                        <div class="img-art">
+                            <img src="https://jacobin.com.br/wp-content/uploads/2020/06/WhatsApp-Image-2020-06-02-at-12.33.45-1024x639.jpeg">
+                        </div>
+                        <div class="txt-art">
+                            <h2>Marx era racista: entenda o motivo</h2>
+                            <p>Marx é um dos poucos autores que, pela amplitude e importância de sua teoria, é leitura obrigatória...</p>
+                        </div>
+                    </a>
+
+                    <a class="previa-art" href="./html/Pretagogia-parte-01.html">
+                        <div class="img-art">
+                            <img src="https://img.freepik.com/free-photo/mother-helping-supporting-her-daughter-with-online-school-while-staying-home-new-normal-lifestyle-concept-monoparental-concept_58466-14652.jpg">
+                        </div>
+                        <div class="txt-art">
+                            <h2>Notas sobre Pretagogia: parte 1</h2>
+                            <p>As alienações da sociabilidade do capital não perdoam nada nem ninguém, adentram todos os espaços e...</p>
+                        </div>
+                    </a>
+
+                    <a class="previa-art" href="#">
+                        <div class="img-art">
+                            <img src="https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg">
+                        </div>
+                        <div class="txt-art">
+                            <h2>Title of article right here</h2>
+                            <p>Some abstract of the text right here. Anything more than four short lines</p>
+                        </div>
+                    </a>
+
+                    <a class="previa-art" href="#">
+                        <div class="img-art">
+                            <img src="https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg">
+                        </div>
+                        <div class="txt-art">
+                            <h2>Title of article right here</h2>
+                            <p>Some abstract of the text right here. Anything more than four short lines</p>
+                        </div>
+                    </a>
+
+                    <a class="previa-art" href="#">
+                        <div class="img-art">
+                            <img src="https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg">
+                        </div>
+                        <div class="txt-art">
+                            <h2>Title of article right here</h2>
+                            <p>Some abstract of the text right here. Anything more than four short lines</p>
+                        </div>
+                    </a>
+
+                    <a class="previa-art" href="#">
+                        <div class="img-art">
+                            <img src="https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg">
+                        </div>
+                        <div class="txt-art">
+                            <h2>Title of article right here</h2>
+                            <p>Some abstract of the text right here. Anything more than four short lines</p>
+                        </div>
+                    </a>
+
+                </div>
             </div>
         </section>
 

@@ -50,24 +50,24 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Classista">
+        <meta name="author" content="ToimNasi">
 
         <!-----------------------------------------------------
             Meta tags configurations de descrições
         ------------------------------------------------------->
         <meta name="description" content="Reflexões classistas sobre o cotidiano.">
 
-        <meta property="og:title" content="Classista">
+        <meta property="og:title" content="ToimNasi">
 
-        <meta property="og:image" content="https://raw.githubusercontent.com/AntonioNasi/Classista/main/og-image.png">
+        <meta property="og:image" content="#">
         <meta property="og:description" content="Reflexões classistas sobre o cotidiano">
 
-        <title>Classista</title>
+        <title>Toim Nasi</title>
 
         <!---------------------------------
             Carrega o fav icone do site
         ----------------------------------->
-        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AntonioNasi/Classista/main/favicon.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AntonioNasi/toimnasi/main/assets/favicon.png"/>
 
         <!---------------------------------
             Carrega HTML externo
@@ -76,9 +76,9 @@
 
         <script>
             $(function () {
-                $('#menu').load("./menu.html");
-                $('#banner').load("./banner.html");
-                $('#footer').load("./footer.html");
+                $('#menu').load("../html/menu.html");
+                $('#menu2').load("../html/menu2.html");
+                $('#footer').load("../html/footer.html");
             });
         </script>
 
@@ -110,38 +110,49 @@
     <body>
 
         <header>
-            <div class="banner-topo">
-                <video autoplay muted loop>
-                    <source src="../assets/video-teste.mp4" type="video/mp4">
-                </video>
+            
+            <nav class="cx-menu" id="menu"></nav>
+
+            <div class="cx-boasvindas">
+
+                <a id="eniteessc" href="#">
+
+                    <!--
+                    <div class="cont-banner">
+                        <h1>IV ENITEESSC</h1>
+                        <p> Clique aqui para se inscrever! </p>
+                    </div>
+                    -->
+
+                </a>
+
             </div>
-    
-            <div class="cx-menu">
-                <nav></nav>
+
+            <div class="chamada-principal">
+                <h2>Reflexões classistas sobre o cotidiano</h2>
+                <p>Este site tem um viés, o viés da classe trabalhadora, da superação do capital e da revolução socialista.</p>
             </div>
+
         </header>
 
-        <section class="sec-singlepost">
-            <div class="cx-singlepost">
+        <section class="sec-artigo">
+            <div class="cx-artigo">
                 <article>
-                    <div class="img-singlepost">
-                        <img src="https://img.freepik.com/free-photo/congratulations-you-did-test-very-well_637285-8618.jpg">
-                    </div>
-                    <div class="txt-singlepost">
-                        <h1>Título do post bem aqui: um exemplo</h1>
+                    <figure>
+                        <img src="https://jacobin.com.br/wp-content/uploads/2020/06/WhatsApp-Image-2020-06-02-at-12.33.45-1024x639.jpeg">
+                    </figure>
+                    <h1>Titulo do artigo aqui: um exemplo de artigo</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere labore, itaque placeat, accusantium tenetur atque non consequuntur magni, quaerat mollitia praesentium impedit esse architecto! Ullam voluptatem quibusdam odit eligendi consectetur.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius deserunt iure ullam suscipit sequi tempora, reprehenderit placeat beatae! Porro odit, tempora maiores molestias recusandae a eius fugiat impedit perspiciatis doloribus?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime similique quasi exercitationem nemo consectetur hic architecto nam esse natus. Officiis, officia mollitia quibusdam possimus iusto cumque ipsa illo ex eveniet.</p>
 
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat modi, fuga a magnam repellat corrupti, vero consequuntur in nemo, impedit nobis id. Magni optio, soluta pariatur fuga sapiente impedit repellendus.</p>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque animi odit dolorem quod quibusdam? Explicabo, debitis, harum veniam expedita sequi commodi odio eveniet aperiam rerum labore blanditiis ratione. In, minima?</p>
-                    </div>
+                    <hr>
+                    <p id="roda-pe">Notas de rodapé</p>
                 </article>
             </div>
         </section>
 
-
-        <footer>
-
-        </footer>
+        <footer class="footer" id="footer"></footer>
 
     </body>
 

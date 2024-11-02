@@ -467,8 +467,42 @@ header .chamada-principal p{
 
 
 
-/*Formatação da seção 1 artigo */
-
+/*Formatação da página do artigo */
+.sec-artigo .cx-artigo{
+    width: 50%;
+    margin: 0 auto;
+}
+.sec-artigo .cx-artigo article figure{
+    width: 100%;
+    height: 340px;
+}
+.sec-artigo .cx-artigo article figure img{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+.sec-artigo .cx-artigo article h1{
+    background-color: #cd0000;
+    color: #ecf0f1;
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: -4% auto 7%;
+    text-align: center;
+    padding: 10px;
+}
+.sec-artigo .cx-artigo article p{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.sec-artigo .cx-artigo article hr{
+    margin: 50px 0px 0px 0px;
+}
+.sec-artigo .cx-artigo article #roda-pe{
+    font-size: 18px;
+}
 
 
 
