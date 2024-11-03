@@ -173,6 +173,31 @@
 
 
 
+    /*Formatação da pagina dos artigos publicados */
+    .sec-publi{
+        padding: 15px;
+    }
+    .sec-publi .cx-publi{
+        width: 100%;
+        padding: 10px;
+    }
+    .sec-publi .cx-publi .publi .icon-pdf{
+        width: 10%;
+    }
+    .sec-publi .cx-publi .publi .info-publi{
+        width: 90%;
+        padding-left: 10px;
+    }
+    .sec-publi .cx-publi .publi .info-publi a{
+        font-size: 18px;
+    }
+    .sec-publi .cx-publi .publi .info-publi p{
+        font-size: 16px;
+    }
+
+
+
+
 
     .footer .cx-footer{
         width: 90%;

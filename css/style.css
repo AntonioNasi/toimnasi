@@ -506,6 +506,48 @@ header .chamada-principal p{
 
 
 
+/*Formatação da pagina dos artigos publicados */
+.sec-publi{
+    margin-bottom: 50px;
+}
+.sec-publi .cx-publi{
+    width: 50%;
+    margin: 0 auto;
+    border: solid 1px #cd0000;
+    border-radius: 10px;
+    padding: 20px;
+}
+.sec-publi .cx-publi .publi{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 0px 40px 0px;
+}
+.sec-publi .cx-publi .publi .icon-pdf{
+    width: 5%;
+}
+.sec-publi .cx-publi .publi .icon-pdf img{
+    width: 100%;
+}
+.sec-publi .cx-publi .publi .info-publi{
+    width: 95%;
+    padding-left: 20px;
+}
+.sec-publi .cx-publi .publi .info-publi a{
+    font-size: 26px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #000000;
+}
+.sec-publi .cx-publi .publi .info-publi a:hover{
+    color: #cd0000;
+}
+.sec-publi .cx-publi .publi .info-publi p{
+    font-size: 22px;
+}
+
+
+
 
 
 .footer{
