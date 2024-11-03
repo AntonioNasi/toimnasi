@@ -91,95 +91,84 @@
     }
     
 
-
+    /*Formatação responsiva - página dos grupos*/
     .sec-2{
         position: unset;
         height: auto;
-        margin-top: 50px;
-        padding: 50px 0px 50px 0px;
     }
-    .sec-2 .cx-sec-2{
+    .sec-2 .cx-sec-2 .titulo-da-sec2{
         height: auto;
-        display: block;
+        padding: 20px 0px;
+    }
+    .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .icone-sec2{
+        width: 70px;
+        height: 70px;
+        padding: 5px;
+    }
+    .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2 h1{
+        font-size: 23px;
+    }
+    .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2 p{
+        font-size: 20px;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo{
         display: block;
-        padding: 0px 0px;
-    }
-    .sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda{
         width: 100%;
-        padding-right: 0px;
+        padding: 0px 15px;
     }
-    .sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda h2{
-        font-size: 25px;
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo{
+        display: block;
+        border-bottom: solid 1px #cd0000;
+        padding-bottom: 40px;
+        margin-top: 40px;
     }
-    .sec-2 .cx-sec-2 .sec-2-conteudo .div-esquerda p{
-        font-size: 18px;
-    }
-    .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita{
-        width: 100%;
-    }
-    .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos{
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo{
+        width: 50%;
         margin: 0 auto;
     }
-    .sec-2 .cx-sec-2 .sec-2-conteudo .div-direita .cx-grupos .grupo{
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo{
         width: 100%;
-        margin: 0 auto 0px;
+        padding-left: unset;
     }
-    #gemesc{
-        padding-right: 0px;
-        margin-right: 10px;
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo h2{
+        font-size: 22px;
+        text-align: center;
     }
-    #gim{
-        padding-left: 0px;
-        margin-left: 10px;
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo p{
+        text-align: center;
+        font-size: 20px;
     }
-    #link-gemesc{
-        margin: 5% 5% 0% 18%;
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo h3{
+        text-align: center;
+        font-size: 18px;
     }
-    #link-gim{
-        margin: 5% 0% 0% 20%;
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo a{
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin: 10px auto 0px;
     }
 
 
-    #header-blog{
-        height: 200px;
-    }
-    .sec-1-artigo .cx-artigo article figure{
-        height: 300px;
-    }
-    .sec-1-artigo .cx-artigo article figure img{
-        height: 300px;
-    }
-    .sec-1-artigo .cx-artigo article .cx-titulo{
-        width: 90%;
-        margin: -90px auto 40px;
-        padding: 15px;
-    }
-    .sec-1-artigo .cx-artigo article .cx-titulo h1{
-        font-size: 25px;
-    }
-    .sec-1-artigo .cx-artigo article p{
-        margin-bottom: 16px;
-        line-height: 1.5;
-        text-align: justify;
-        hyphens: auto;
-    }
-    .sec-1-artigo .cx-artigo article .nota-rodape p{
-        font-size: 14px;
-    }
+    
 
 
     /*Formatação responsiva - página do artigo*/
-    .sec-texto .cx-texto article{
+    .sec-artigo{
+        padding: 0px 15px;
+    }
+    .sec-artigo .cx-artigo{
         width: 100%;
     }
-    .sec-texto .cx-texto article h1{
-        margin: -50px auto 40px;
-        font-size: 24px;
+    .sec-artigo .cx-artigo article h1{
+        margin: -10% auto 7%;
+        font-size: 26px;
     }
-    .sec-texto .cx-texto article p{
+    .sec-artigo .cx-artigo article p{
         font-size: 20px;
+    }
+    .sec-artigo .cx-artigo article #roda-pe{
+        font-size: 14px;
     }
 
 
