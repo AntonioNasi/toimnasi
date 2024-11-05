@@ -496,6 +496,7 @@ header .chamada-principal p{
 .sec-artigo .cx-artigo article p{
     margin-bottom: 20px;
     line-height: 1.5;
+    font-size: 20px;
 }
 .sec-artigo .cx-artigo article hr{
     margin: 50px 0px 0px 0px;
