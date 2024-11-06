@@ -468,6 +468,9 @@ header .chamada-principal p{
 
 
 /*Formatação da página do artigo */
+.sec-artigo{
+    margin-bottom: 50px;
+}
 .sec-artigo .cx-artigo{
     width: 50%;
     margin: 0 auto;
@@ -499,10 +502,12 @@ header .chamada-principal p{
     font-size: 20px;
 }
 .sec-artigo .cx-artigo article hr{
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 10px 0px;
 }
 .sec-artigo .cx-artigo article #roda-pe{
-    font-size: 18px;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
 }
 
 
