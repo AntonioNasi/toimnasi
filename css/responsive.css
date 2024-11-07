@@ -28,6 +28,8 @@
     header .cx-boasvindas{
         margin: 30px auto 0px;
         height: 55%;
+        background-attachment: scroll;
+        background-position: center;
     }
     header .cx-boasvindas #eniteessc .cont-banner h1{
         font-size: 40px;
