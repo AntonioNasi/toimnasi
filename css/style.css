@@ -592,3 +592,19 @@ header .chamada-principal p{
     font-size: 18px;
     color: #ecf0f1;
 }
+
+.footer .cx-footer .item-footer .cx-contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .cx-footer .item-footer .cx-contato a{
+    display: flex;
+    height: 35px;
+    width: auto;
+    justify-content: center;
+}
+.footer .cx-footer .item-footer .cx-contato a img{
+    width: 100%;
+    margin: 10px 10px 0px;
+}
