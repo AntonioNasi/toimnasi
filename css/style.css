@@ -554,7 +554,57 @@ header .chamada-principal p{
 
 
 
-
+/*Formatação seção com informações do capitalismo no brasil */
+.sec-info-capi{
+    margin-bottom: 60px;
+}
+.sec-info-capi h1{
+    text-align: center;
+    color: #ecf0f1;
+    padding: 20px 0px;
+    background-color: #cd0000;
+}
+.sec-info-capi .info-capi{
+    width: 90%;
+    margin: 40px auto 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.sec-info-capi .info-capi .info-item{
+    border: solid 1px #cd0000;
+    padding: 10px;
+    border-radius: 20px;
+}
+.sec-info-capi .info-capi .info-item hr{
+    color: #cd0000;
+    margin: 10px 0px;
+}
+.sec-info-capi .info-capi .info-item .cx-span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.sec-info-capi .info-capi .info-item .cx-span span{
+    font-size: 90px;
+    color: #ecf0f1;
+    background-color: #cd0000;
+    border-radius: 100%;
+    padding: 10px;
+}
+.sec-info-capi .info-capi .info-item #descri{
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+.sec-info-capi .info-capi .info-item #num{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    color: #cd0000;
+}
 
 
 

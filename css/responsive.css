@@ -198,7 +198,17 @@
     }
 
 
-
+    /*Formatação seção com informações do capitalismo no brasil */
+    .sec-info-capi h1{
+        font-size: 22px;
+        padding: 20px 5%;
+    }
+    .sec-info-capi .info-capi{
+        display: block;
+    }
+    .sec-info-capi .info-capi .info-item{
+        margin-bottom: 30px;
+    }
 
 
     .footer .cx-footer{
