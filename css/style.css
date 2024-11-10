@@ -559,6 +559,10 @@ header .chamada-principal p{
     margin-bottom: 60px;
 }
 .sec-info-capi h1{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 15px;
     text-align: center;
     color: #ecf0f1;
     padding: 20px 0px;
