@@ -1,3 +1,36 @@
+/* Configuração para telas de até 768px */
+
+@media screen and (max-width:768px){
+
+/* Página inicial */
+
+    header{
+        height: auto;
+    }
+    header nav .itens-menu1{
+        width: 90%;
+    }
+    header .chamada-principal{
+        margin: 40px auto 40px;
+    }
+    .sec-info-capi h1{
+        font-size: 22px;
+        padding: 20px 5%;
+        width: 90%;
+    }
+    .sec-info-capi .info-capi{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+/* Página do blog */
+
+    .sec-1 .cx-sec-1 .sec-1-conteudo{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media screen and (max-width:600px){
     header{
         height: 100vh;
@@ -49,6 +82,7 @@
     header .chamada-principal p{
         font-size: 20px;
     }
+
 
 
     .sec-1 .cx-sec-1 .titulo-da-sec{
