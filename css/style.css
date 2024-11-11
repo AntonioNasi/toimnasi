@@ -344,6 +344,7 @@ header .chamada-principal p{
 .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art{
     width: 60%;
     margin-left: 15px;
+    overflow: hidden;
 }
 .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art h2{
     font-weight: 900;
