@@ -266,3 +266,124 @@
         text-align: center;
     }
 }
+
+
+
+
+
+
+
+
+
+
+/*Formatação para telas maiores que 1900px */
+
+@media screen and (min-width:1900px){
+    
+    /*Configuração da tela inicial/boas vindas*/
+    
+    header{
+        height: auto;
+    }
+    
+    header .cx-boasvindas{
+        max-width: 1900px;
+        height: 540px;
+        margin: 2% auto auto auto;
+    }
+    
+    header .cx-boasvindas #eniteessc{
+        max-width: 1900px;
+        height: auto;
+    }
+    
+    header .cx-boasvindas #eniteessc .cont-banner{
+        max-width: 1900px;
+        margin: 0 auto;
+    }
+    
+    header .chamada-principal{
+        max-width: 1900px;
+        margin: 40px auto 40px;
+    }
+    
+    
+    
+    
+    .sec-1 .cx-sec-1 .titulo-da-sec{
+        max-width: 1900px;
+        margin: 0 auto;
+    }
+    
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec{
+        max-width: 1900px;
+        margin: 0 auto;
+    }
+    
+    .sec-1 .cx-sec-1 .sec-1-conteudo{
+        max-width: 1900px;
+    }
+    
+    
+    
+    
+    
+    /*Formatação da pagina dos grupos */
+    .sec-2{
+        height: auto;
+        margin-bottom: 60px;
+    }
+    .sec-2 .cx-sec-2{
+        height: auto;
+        max-width: 1900px;
+        margin: 0 auto;
+    }
+    
+    .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2{
+        max-width: 1900px;
+    }
+    
+    .sec-2 .cx-sec-2 .sec-2-conteudo{
+        max-width: 1900px;
+    }
+    
+    
+    
+    
+    
+    /*Formatação da página do artigo */
+    .sec-artigo{
+        margin-bottom: 50px;
+    }
+    .sec-artigo .cx-artigo{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    
+    /*Formatação da pagina dos artigos publicados */
+    .sec-publi{
+        margin-bottom: 50px;
+    }
+    .sec-publi .cx-publi{
+        width: 50%;
+        margin: 0 auto;
+        border: solid 1px #cd0000;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    
+    
+    
+    /*Formatação seção com informações do capitalismo no brasil */
+    
+    .sec-info-capi .info-capi{
+        max-width: 1900px;
+    }
+    
+    
+    
+    .footer .cx-footer{
+        max-width: 1900px;
+    }
+}
