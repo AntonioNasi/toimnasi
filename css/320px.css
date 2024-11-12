@@ -1,0 +1,23 @@
+@media screen and (max-width:320px){
+    header{
+        height: auto;
+    }
+    header nav .itens-menu1{
+        width: 90%;
+        margin: 0 auto auto auto;
+    }
+    header nav .itens-menu1 a{
+        width: 70px;
+        height: 70px;
+    }
+    header .cx-boasvindas{
+        width: 100%;
+        height: 540px;
+        margin: 5% auto auto auto;
+    }
+    header .chamada-principal{
+        width: 90%;
+        margin: 40px auto 0px;
+        color: #cd0000;
+    }
+}
