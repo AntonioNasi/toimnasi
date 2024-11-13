@@ -505,10 +505,10 @@ header .chamada-principal p{
 .sec-artigo .cx-artigo article hr{
     margin: 50px 0px 10px 0px;
 }
-.sec-artigo .cx-artigo article #roda-pe{
+.sec-artigo .cx-artigo article .roda-pe{
     font-size: 14px;
     text-decoration: none;
-    display: block;
+    display: inline;
 }
 
 
