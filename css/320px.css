@@ -20,4 +20,23 @@
         margin: 40px auto 0px;
         color: #cd0000;
     }
+    .sec-info-capi{
+        margin: 40px auto 60px;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec{
+        height: auto;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .icone-sec{
+        width: 80px;
+        height: 80px;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .icone-sec p{
+        font-size: 22px;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .txt-sec h1{
+        font-size: 26px;
+    }
+    .sec-artigo{
+        margin: 50px auto 50px;
+    }
 }
