@@ -68,6 +68,8 @@
     body{
         max-width: 1440px;
         margin: 0 auto;
+        border-left: solid 1px #cd0000;
+        border-right: solid 1px #cd0000;
     }
     /* Chamada principal */
     header nav .itens-menu1{
