@@ -12,7 +12,7 @@
         font-size: 22px;
     }
     .sec-info-capi{
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-info-capi h1{
         width: 90%;
@@ -22,7 +22,7 @@
     /* Página do blog */
     .sec-1{
         height: auto;
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-1 .cx-sec-1 .titulo-da-sec{
         height: auto;
@@ -31,7 +31,7 @@
 
     /*Página do artigo */
     .sec-artigo{
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-artigo .cx-artigo{
         width: 50%;
@@ -41,7 +41,7 @@
     .sec-2{
         position: unset;
         height: auto;
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-2 .cx-sec-2 .titulo-da-sec2{
         height: auto;
@@ -50,7 +50,7 @@
 
     /*Página dos artigos publicados */
     .sec-publi{
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-publi .cx-publi{
         width: 60%;
@@ -84,7 +84,7 @@
         font-size: 22px;
     }
     .sec-info-capi{
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-info-capi h1{
         width: 90%;
@@ -94,7 +94,7 @@
     /* Página do blog */
     .sec-1{
         height: auto;
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-1 .cx-sec-1 .titulo-da-sec{
         height: auto;
@@ -103,7 +103,7 @@
 
     /*Página do artigo */
     .sec-artigo{
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-artigo .cx-artigo{
         width: 50%;
@@ -113,7 +113,7 @@
     .sec-2{
         position: unset;
         height: auto;
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-2 .cx-sec-2 .titulo-da-sec2{
         height: auto;
@@ -122,7 +122,7 @@
 
     /*Página dos artigos publicados */
     .sec-publi{
-        margin: 100px auto 60px;
+        margin: 50px auto 60px;
     }
     .sec-publi .cx-publi{
         width: 60%;
