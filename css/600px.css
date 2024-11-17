@@ -1,235 +1,499 @@
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px){
+    /* Tela inicial e boas vindas*/
+    
     header{
-        height: 100vh;
+        height: auto;
     }
     header nav{
-        height: auto;
+        display: flex;
+        margin-top: 30px;
     }
     header nav .itens-menu1{
         display: flex;
-        flex-wrap: wrap;
-        width: 90%;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
+        width: 90%;
+        margin: 0 auto auto auto;
     }
+    
     header nav .itens-menu1 a{
-        height: 70px;
+        text-decoration: none;
+        color: #000000;
+        text-align: center;
         width: 70px;
-        margin-bottom: 20px;
+        height: 70px;
+        padding: 0% 0% 0% 0%;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #cd0000;
     }
+    
+    header nav .itens-menu1 a:hover{
+        background-color: #ffd800;
+        box-shadow: 2px 2px 5px #cd0000;
+        transition: box-shadow .3s;
+    }
+    
     header nav .itens-menu1 a:not(:last-child){
         margin-right: 0px;
-        border-right: none;
     }
-
-
     
+    header nav .itens-menu1 a img{
+        width: 55%;
+        filter:brightness(100%);
+    }
+    
+    header nav .itens-menu1 a p{
+        display: none;
+    }
     
     header .cx-boasvindas{
-        margin: 30px auto 0px;
-        height: 55%;
+        width: 100%;
+        height: 540px;
+        margin: 5% auto auto auto;
+        background-image: url(../assets/f01.png);
         background-attachment: scroll;
         background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top: solid 1px transparent;
     }
-    header .cx-boasvindas #eniteessc .cont-banner h1{
-        font-size: 40px;
+    
+    header .chamada-principal{
+        width: 90%;
+        margin: 40px auto 60px;
+        color: #cd0000;
     }
-    header .cx-boasvindas #eniteessc .cont-banner p{
+    
+    header .chamada-principal h2{
+        text-align: center;
+        font-size: 26px;
+        letter-spacing: 0px;
+        font-weight: 900;
+    }
+    header .chamada-principal p{
+        text-align: center;
         font-weight: 300;
         font-size: 20px;
     }
-
-    header .chamada-principal{
-        margin-top: 40px;
-    }
-
-    header .chamada-principal h2{
-        font-size: 28px;
-    }
-    header .chamada-principal p{
-        font-size: 20px;
-    }
-
-
-
-    .sec-1 .cx-sec-1 .titulo-da-sec{
+    
+    
+    /* Página do blog */
+    .sec-1{
         height: auto;
+        background-image: linear-gradient(45deg, #ecf0f1, transparent, transparent);
+        margin-top: 20px;
+
+        border: solid 1px black;
+    }
+    .sec-1 .cx-sec-1{
+        height: auto;
+        width: 100%;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec{
+        background-color: #cd0000;
+        height: auto;
+        display: flex;
+        justify-content: center;
         padding: 20px 0px;
     }
+    
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
     .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .icone-sec{
-        width: 70px;
-        height: 70px;
-        padding: 5px;
+        width: 80px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ecf0f1;
+        border-radius: 100%;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .icone-sec p{
+        font-weight: 900;
+        color: #cd0000;
+    }
+    .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .txt-sec{
+        color: #ecf0f1;
+        margin-left: 20px;
     }
     .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .txt-sec h1{
-        font-size: 23px;
+        font-size: 26px;
     }
     .sec-1 .cx-sec-1 .titulo-da-sec .cx-cont-title-sec .txt-sec p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo{
         display: block;
-        margin-top: 100px;
+        width: 90%;
+        margin: 140px auto 60px;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art{
         display: block;
-        margin-bottom: 80px;
+        width: 100%;
         height: 240px;
+        border: solid 1px #cd0000;
+        padding: 10px;
+        margin-bottom: 130px;
+        border-radius: 13px;
+        text-decoration: none;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art:hover{
+        box-shadow: 2px 2px 8px #cd000052;
+        background-color: #ffffff;
+        transition: background-color .3s;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .img-art{
-        border-radius: 20px;
-        width: 80%;
-        height: 120px;
-        margin: -70px auto 0px;
+        width: 90%;
+        height: 70%;
+        margin: -100px auto 10px;
+    }
+    .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .img-art img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 13px;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art{
         width: 100%;
-        height: 70%;
-        margin: 10px 0px 0px;
+        height: 68%;
+        overflow: hidden;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art h2{
+        font-weight: 900;
+        font-size: 24px;
+        color: #cd0000;
         text-align: center;
     }
     .sec-1 .cx-sec-1 .sec-1-conteudo .previa-art .txt-art p{
+        font-weight: normal;
+        font-size: 18px;
         text-align: center;
+        color: #cd0000;
     }
     
-
-    /*Formatação responsiva - página dos grupos*/
+    /*Formatação da pagina dos grupos */
     .sec-2{
         position: unset;
         height: auto;
+        background-color: #ecf0f1;
     }
-    .sec-2 .cx-sec-2 .titulo-da-sec2{
+    .sec-2 .cx-sec-2{
         height: auto;
+        width: 100%;
+    }
+    
+    .sec-2 .cx-sec-2 .titulo-da-sec2{
+        background-color: #cd0000;
+        height: auto;
+        display: flex;
+        justify-content: center;
         padding: 20px 0px;
     }
+    
+    .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
     .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .icone-sec2{
-        width: 70px;
+        width: 80px;
         height: 70px;
-        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ecf0f1;
+        border-radius: 100%;
+    }
+    
+    .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .icone-sec2 p{
+        font-weight: 900;
+        color: #cd0000;
+    }
+    
+    .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2{
+        color: #ecf0f1;
+        margin-left: 20px;
     }
     .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2 h1{
-        font-size: 23px;
+        font-size: 26px;
     }
     .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2 p{
-        font-size: 20px;
+        font-size: 18px;
     }
+    
     .sec-2 .cx-sec-2 .sec-2-conteudo{
-        display: block;
-        width: 100%;
-        padding: 0px 15px;
+        width: 90%;
+        margin: 60px auto 60px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo{
         display: block;
-        border-bottom: solid 1px #cd0000;
-        padding-bottom: 40px;
-        margin-top: 40px;
+        align-items: center;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo{
         width: 50%;
         margin: 0 auto;
     }
-    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo{
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo img{
         width: 100%;
-        padding-left: unset;
+    }
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo{
+        width: 90%;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo h2{
-        font-size: 22px;
+        font-weight: 900;
+        color: #cd0000;
+        font-size: 26px;
         text-align: center;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo p{
-        text-align: center;
         font-size: 20px;
+        color: #cd0000;
+        margin: 10px 0px;
+        text-align: center;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo h3{
-        text-align: center;
+        color: #cd0000;
+        font-weight: 700;
+        letter-spacing: -1px;
         font-size: 18px;
+        text-align: center;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo a{
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        color: #ecf0f1;
         display: block;
         width: 50%;
-        text-align: center;
         margin: 10px auto 0px;
+        background-color: #cd0000;
+        border: solid 1px #cd0000;
+        padding: 5px 15px;
+        border-radius: 10px;
+        text-align: center;
     }
-
-
+    .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo a:hover{
+        background-color: #ffd800;
+        color: #cd0000;
+        border: none;
+        box-shadow: 2px 2px 8px #cd0000;
+    }
     
-
-
-    /*Formatação responsiva - página do artigo*/
+    
+    
+    
+    
+    /*Formatação da página do artigo */
     .sec-artigo{
-        padding: 0px 15px;
+        margin-bottom: 50px;
     }
     .sec-artigo .cx-artigo{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .sec-artigo .cx-artigo article figure{
         width: 100%;
+        height: 340px;
+    }
+    .sec-artigo .cx-artigo article figure img{
+        width: 100%;
+        height: 340px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px;
     }
     .sec-artigo .cx-artigo article h1{
-        margin: -10% auto 7%;
-        font-size: 26px;
-    }
-    .sec-artigo .cx-artigo article p{
-        font-size: 18px;
-    }
-    .sec-artigo .cx-artigo article #roda-pe{
-        font-size: 14px;
-    }
-
-
-
-    /*Formatação da pagina dos artigos publicados */
-    .sec-publi{
-        padding: 15px;
-    }
-    .sec-publi .cx-publi{
-        width: 100%;
+        background-color: #cd0000;
+        color: #ecf0f1;
+        display: block;
+        position: relative;
+        width: 90%;
+        margin: -4% auto 7%;
+        text-align: center;
         padding: 10px;
     }
+    .sec-artigo .cx-artigo article p{
+        margin-bottom: 20px;
+        line-height: 1.5;
+        font-size: 20px;
+    }
+    .sec-artigo .cx-artigo article hr{
+        margin: 50px 0px 10px 0px;
+    }
+    .sec-artigo .cx-artigo article .roda-pe{
+        font-size: 14px;
+        text-decoration: none;
+        display: inline;
+    }
+    
+    
+    
+    /*Formatação da pagina dos artigos publicados */
+    .sec-publi{
+        margin-bottom: 50px;
+    }
+    .sec-publi .cx-publi{
+        width: 50%;
+        margin: 0 auto;
+        border: solid 1px #cd0000;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .sec-publi .cx-publi .publi{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0px 0px 40px 0px;
+    }
     .sec-publi .cx-publi .publi .icon-pdf{
-        width: 10%;
+        width: 5%;
+    }
+    .sec-publi .cx-publi .publi .icon-pdf img{
+        width: 100%;
     }
     .sec-publi .cx-publi .publi .info-publi{
-        width: 90%;
-        padding-left: 10px;
+        width: 95%;
+        padding-left: 20px;
     }
     .sec-publi .cx-publi .publi .info-publi a{
-        font-size: 18px;
+        font-size: 26px;
+        font-weight: 900;
+        text-decoration: none;
+        color: #000000;
+    }
+    .sec-publi .cx-publi .publi .info-publi a:hover{
+        color: #cd0000;
     }
     .sec-publi .cx-publi .publi .info-publi p{
-        font-size: 16px;
-    }
-
-
-    /*Formatação seção com informações do capitalismo no brasil */
-    .sec-info-capi h1{
         font-size: 22px;
-        padding: 20px 5%;
-        width: 90%;
+    }
+    
+    
+    
+    /*Formatação seção com informações do capitalismo no brasil */
+    .sec-info-capi{
+        margin-bottom: 60px;
+    }
+    .sec-info-capi h1{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 15px;
+        text-align: center;
+        color: #ecf0f1;
+        padding: 20px 0px;
+        background-color: #cd0000;
     }
     .sec-info-capi .info-capi{
-        display: block;
+        width: 90%;
+        margin: 40px auto 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 40px;
     }
     .sec-info-capi .info-capi .info-item{
-        margin-bottom: 30px;
+        border: solid 1px #cd0000;
+        padding: 10px;
+        border-radius: 20px;
     }
-
-
+    .sec-info-capi .info-capi .info-item hr{
+        color: #cd0000;
+        margin: 10px 0px;
+    }
+    .sec-info-capi .info-capi .info-item .cx-span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .sec-info-capi .info-capi .info-item .cx-span span{
+        font-size: 90px;
+        color: #ecf0f1;
+        background-color: #cd0000;
+        border-radius: 100%;
+        padding: 10px;
+    }
+    .sec-info-capi .info-capi .info-item #descri{
+        text-align: center;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .sec-info-capi .info-capi .info-item #num{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 24px;
+        color: #cd0000;
+    }
+    
+    
+    
+    
+    
+    .footer{
+        border-top: solid 5px #ff0000;
+        background-color: #cd0000;
+        height: auto;
+    }
     .footer .cx-footer{
         width: 90%;
         margin: 0 auto;
-        display: block;
+        display: flex;
         padding: 50px 0px;
+        flex-wrap: nowrap;
     }
     .footer .cx-footer .item-footer{
-        width: 100%;
+        width: 33%;
         padding: 0px 10px;
-        text-align: center;
-        margin-bottom: 20px;
     }
     .footer .cx-footer .item-footer:nth-child(1){
-        text-align: center;
+        text-align: right;
     }
     .footer .cx-footer .item-footer:nth-child(2){
         text-align: center;
     }
+    .footer .cx-footer .item-footer h3{
+        font-size: 20px;
+        color: #ecf0f1;
+    }
+    .footer .cx-footer .item-footer a{
+        font-size: 18px;
+        display: block;
+        text-decoration: none;
+        color: #ecf0f1;
+    }
+    .footer .cx-footer .item-footer p{
+        font-size: 18px;
+        color: #ecf0f1;
+    }
+    
+    .footer .cx-footer .item-footer .cx-contato{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .cx-footer .item-footer .cx-contato a{
+        display: flex;
+        height: 35px;
+        width: auto;
+        justify-content: center;
+    }
+    .footer .cx-footer .item-footer .cx-contato a img{
+        width: 100%;
+        margin: 10px 10px 0px;
+    }
+}
 }

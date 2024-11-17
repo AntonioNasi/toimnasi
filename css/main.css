@@ -1,2 +1,3 @@
-@import url(./style.css);
+@import url(./global-Style.css);
 @import url(./600px.css);
+@import url(./1440up.css);
