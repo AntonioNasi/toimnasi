@@ -1,57 +1,127 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slide</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  height: 680px;
+  overflow: hidden;
+  object-fit: cover;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
 </head>
 <body>
 
-    <div class="slider">
 
-        <div class="slides">
+<div class="slideshow-container">
 
-            <input type="radio" name="radio-btn" id="radio1">
-            <input type="radio" name="radio-btn" id="radio2">
-            <input type="radio" name="radio-btn" id="radio3">
-            <input type="radio" name="radio-btn" id="radio4">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://assets.editorial.aetnd.com/uploads/2018/12/communism-timeline-gettyimages-517453428.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
 
-            <div class="slide first">
-                <img src="https://www.wmf.org/sites/default/files/styles/project_gallery_full_size/public/projects/gallery/CHN_Great_Wall_JPEG_img-01.jpg?">
-            </div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://cdn.kastatic.org/ka-content-images/045d67690575bf2912fc09e161155d1120bbf45f.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
 
-            <div class="slide">
-                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5ca29110-96b9-472b-8d5d-85700c6d7541/dg5cg01-b9fcc8cc-43d5-4595-995a-5aef40068ffe.jpg/v1/fill/w_1192,h_670,q_70,strp/chinese_village_landscape__1_by_quantumreel_dg5cg01-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNWNhMjkxMTAtOTZiOS00NzJiLThkNWQtODU3MDBjNmQ3NTQxXC9kZzVjZzAxLWI5ZmNjOGNjLTQzZDUtNDU5NS05OTVhLTVhZWY0MDA2OGZmZS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Nr57HsX2PYzwevEDdFlQIPBCqdNXw4LpkeZGAA-2Bsc">
-            </div>
-            
-            <div class="slide">
-                <img src="https://video.cgtn.com/news/2020-11-15/Aerial-view-of-beautiful-landscape-in-Gansu-Province-NW-China-VqR2NQZ6b6/video/aa4920fcc4a54ce3a08eb60ab0dd85a4/aa4920fcc4a54ce3a08eb60ab0dd85a4.jpeg">
-            </div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://esquerdaonline.com.br/wp-content/uploads/2020/05/gabrielsantos-11052020.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
 
-            <div class="slide">
-                <img src="https://cdn.pixabay.com/photo/2019/06/11/12/53/landscape-4266942_1280.jpg">
-            </div>
+</div>
+<br>
 
-            <div class="navigation-auto">
-                <div class="auto-btn1"></div>
-                <div class="auto-btn2"></div>
-                <div class="auto-btn3"></div>
-                <div class="auto-btn4"></div>
-            </div>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
 
-        </div>
+<script>
+let slideIndex = 0;
+showSlides();
 
-        <div class="manual-navigation">
-            <label for="radio1" class="manual-btn"></label>
-            <label for="radio2" class="manual-btn"></label>
-            <label for="radio3" class="manual-btn"></label>
-            <label for="radio4" class="manual-btn"></label>
-        </div>
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 
-    </div>
-
-    <script src="../js/slide.js"></script>
-    
 </body>
-</html>
+</html> 
