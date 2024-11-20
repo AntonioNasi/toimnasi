@@ -248,6 +248,7 @@
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo img{
         width: 100%;
+        border-radius: 100%;
     }
     .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo{
         width: 90%;
