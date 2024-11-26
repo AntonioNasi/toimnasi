@@ -41,6 +41,19 @@
         width: 55%;
         filter:brightness(100%);
     }
+    header nav .itens-menu1 a #literatura-icon{
+        animation-name: escrita;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes escrita {
+        0%{transform: rotate(0deg);}
+        30%{transform: rotate(2deg);}
+        60%{transform: rotate(-2deg);}
+        100%{transform: rotate(0deg);}
+
+    }
     header nav .itens-menu1 a p{
         display: none;
     }
