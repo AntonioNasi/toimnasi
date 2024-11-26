@@ -293,6 +293,35 @@
         width: 100%;
         height: 340px;
     }
+    .sec-artigo .cx-artigo article .div-autor-post{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        margin-bottom: 20px;
+    }
+    .sec-artigo .cx-artigo article .div-autor-post .img-autor-post{
+        height: 50px;
+        width: 50px;
+        border: solid 1px #cd0000;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sec-artigo .cx-artigo article .div-autor-post .img-autor-post span{
+        color:#cd0000;
+        font-size: 50px;
+        font-weight: 200;
+    }
+    .sec-artigo .cx-artigo article .div-autor-post .data-post{
+        padding-left: 10px;
+    }
+    .sec-artigo .cx-artigo article .div-autor-post .data-post p{
+        font-size: 13px;
+        margin: 0px;
+        line-height: normal;
+    }
     .sec-artigo .cx-artigo article figure img{
         width: 100%;
         height: 340px;
