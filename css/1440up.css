@@ -65,7 +65,7 @@
   header .cx-boasvindas {
     max-width: 1000px;
     height: 380px;
-    margin: 0 auto;
+    margin: 10px auto 0px;
     background-image: url(https://smarthistory.org/wp-content/uploads/2020/08/Michelangelo_-_Creation_of_Adam_cropped-scaled.jpg);
     background-position: left;
     background-repeat: no-repeat;
@@ -311,9 +311,11 @@
     =====================*/
   .sec-artigo {
     margin: 60px auto 60px;
+    display: flex;
+    max-width: 1000px;
   }
   .sec-artigo .cx-artigo {
-    width: 50%;
+    max-width: 700px;
     margin: 0 auto;
   }
   .sec-artigo .cx-artigo article figure {
@@ -328,8 +330,8 @@
     margin-bottom: 20px;
   }
   .sec-artigo .cx-artigo article .div-autor-post .img-autor-post {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border: solid 1px #cd0000;
     border-radius: 100%;
     display: flex;
@@ -338,14 +340,14 @@
   }
   .sec-artigo .cx-artigo article .div-autor-post .img-autor-post span {
     color: #cd0000;
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 200;
   }
   .sec-artigo .cx-artigo article .div-autor-post .data-post {
     padding-left: 10px;
   }
   .sec-artigo .cx-artigo article .div-autor-post .data-post p {
-    font-size: 13px;
+    font-size: 12px;
     margin: 0px;
     line-height: normal;
   }
@@ -365,11 +367,12 @@
     margin: -2% auto 7%;
     text-align: center;
     padding: 10px;
+    font-size: 26px;
   }
   .sec-artigo .cx-artigo article p {
     margin-bottom: 20px;
     line-height: 1.5;
-    font-size: 24px;
+    font-size: 18px;
   }
   .sec-artigo .cx-artigo article hr {
     margin: 50px 0px 10px 0px;
@@ -390,6 +393,49 @@
     font-size: 20px;
     letter-spacing: -1px;
     font-weight: 800;
+  }
+
+  .sec-artigo .coluna-direita{
+    max-width: 300px;
+    padding: 0px 0px 0px 40px;
+  }
+  .sec-artigo .coluna-direita .cx-conteudo{
+    margin-bottom: 30px;
+  }
+  .sec-artigo .coluna-direita .cx-conteudo h3{
+    background-color: #cd0000;
+    text-align: center;
+    padding: 5px 0px;
+    color: #ecf0f1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .sec-artigo .coluna-direita .cx-conteudo ul li{
+    list-style-type: decimal;
+    list-style-position: inside;
+    margin-bottom: 6px;
+  }
+  .sec-artigo .coluna-direita .cx-conteudo ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sec-artigo .coluna-direita .cx-conteudo ul li a:hover{
+    color: #cd0000;
+  }
+  #link-sites-parceiros a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  #link-sites-parceiros a:hover{
+    color: #cd0000;
   }
 
   /*========================
