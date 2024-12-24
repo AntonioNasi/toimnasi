@@ -1,325 +1,469 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-    <head>
-        
-        <!----------------------------------------------
+  <head>
+    <!----------------------------------------------
             Google AdSense
         ----------------------------------------------->
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9100275046849925"
-        crossorigin="anonymous"></script>
+    <script
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9100275046849925"
+      crossorigin="anonymous"
+    ></script>
 
-        <!----------------------------------------------
+    <!----------------------------------------------
             Google Tag Manager
         ----------------------------------------------->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-TFG3BPT');
-        </script>
-        <!-- End Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-TFG3BPT");
+    </script>
+    <!-- End Google Tag Manager -->
 
-        <!-----------------------------------------------------
+    <!-----------------------------------------------------
             Global site tag (gtag.js) - Google Analytics
         ------------------------------------------------------->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160635526-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-160635526-1"
+    ></script>
 
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag('config', 'UA-160635526-1');
-        </script>
+      gtag("config", "UA-160635526-1");
+    </script>
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCWNE295MH"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KCWNE295MH"
+    ></script>
 
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-    
-            gtag('config', 'G-KCWNE295MH');
-        </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        <!-----------------------------------------------------
+      gtag("config", "G-KCWNE295MH");
+    </script>
+
+    <!-----------------------------------------------------
             Meta tags configurations
         ------------------------------------------------------->
-        <meta name="google-site-verification" content="RKDoq_Qt2n5bFVJBgAEQjSUBeDy413kPFZXI9CzcZ3k" />
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="ToimNasi">
+    <meta
+      name="google-site-verification"
+      content="RKDoq_Qt2n5bFVJBgAEQjSUBeDy413kPFZXI9CzcZ3k"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="ToimNasi" />
 
-        <!-----------------------------------------------------
+    <!-----------------------------------------------------
             Meta tags configurations de descrições
         ------------------------------------------------------->
-        <meta name="description" content="Reflexões classistas sobre o cotidiano.">
+    <meta
+      name="description"
+      content="Reflexões classistas sobre o cotidiano."
+    />
 
-        <meta property="og:title" content="ToimNasi">
+    <meta property="og:title" content="ToimNasi" />
 
-        <meta property="og:image" content="#">
-        <meta property="og:description" content="Reflexões classistas sobre o cotidiano">
+    <meta property="og:image" content="#" />
+    <meta
+      property="og:description"
+      content="Reflexões classistas sobre o cotidiano"
+    />
 
-        <title>Toim Nasi</title>
+    <title>Toim Nasi</title>
 
-        <!---------------------------------
+    <!---------------------------------
             Carrega o fav icone do site
         ----------------------------------->
-        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/AntonioNasi/toimnasi/main/assets/favicon.png"/>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://raw.githubusercontent.com/AntonioNasi/toimnasi/main/assets/favicon.png"
+    />
 
-        <!---------------------------------
+    <!---------------------------------
             Carrega HTML externo
         ----------------------------------->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-        <script>
-            $(function () {
-                $('#menu').load("../html/menu.html");
-                $('#menu2').load("../html/menu2.html");
-                $('#footer').load("../html/footer.html");
-            });
-        </script>
+    <script>
+      $(function () {
+        $("#menu").load("../html/menu.html");
+        $("#menu2").load("../html/menu2.html");
+        $("#footer").load("../html/footer.html");
+      });
+    </script>
 
-        <!-----------------------------------------------
+    <!-----------------------------------------------
             Carrega os Icones do Google Material icons
         -------------------------------------------------->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
 
-        <!---------------------------------
+    <!---------------------------------
             Carrega css nativo
         ----------------------------------->
-        <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
 
-        <!-----------------------------------------------
+    <!-----------------------------------------------
             Carrega fontes do Google Fonts
         -------------------------------------------------->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-------------------------------------------------------
+    <!-------------------------------------------------------
             Carrega os botões de compartilhar nas resdes sociais
         --------------------------------------------------------->
-        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=6117b0ae49abbb00129cb2c1&product=inline-share-buttons" async="async"></script>
+    <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=6117b0ae49abbb00129cb2c1&product=inline-share-buttons"
+      async="async"
+    ></script>
+  </head>
 
-    </head>
+  <body>
+    <header>
+      <nav class="cx-menu" id="menu"></nav>
 
-    <body>
-
-        <header>
-            
-            <nav class="cx-menu" id="menu"></nav>
-
-            <div class="cx-boasvindas">
-
-                <a id="eniteessc" href="#">
-
-                    <!--
+      <div class="cx-boasvindas">
+        <a id="eniteessc" href="#">
+          <!--
                     <div class="cont-banner">
                         <h1>IV ENITEESSC</h1>
                         <p> Clique aqui para se inscrever! </p>
                     </div>
                     -->
+        </a>
+      </div>
 
-                </a>
+      <div class="chamada-principal">
+        <h2>Reflexões classistas sobre o cotidiano</h2>
+        <p>
+          Este site tem um viés, o viés da classe trabalhadora, da superação do
+          capital e da revolução socialista.
+        </p>
+      </div>
+    </header>
 
+    <section class="sec-1" id="blog">
+      <div class="cx-sec-1">
+        <div class="titulo-da-sec">
+          <div class="cx-cont-title-sec">
+            <div class="icone-sec">
+              <p>Blog</p>
             </div>
 
-            <div class="chamada-principal">
-                <h2>Reflexões classistas sobre o cotidiano</h2>
-                <p>Este site tem um viés, o viés da classe trabalhadora, da superação do capital e da revolução socialista.</p>
+            <div class="txt-sec">
+              <h1>Reflexões não acadêmicas</h1>
+              <p>Aprecie com moderação</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sec-1-conteudo">
+          <a
+            class="previa-art"
+            href="./STF_retrocesso_e_laicidade_do_Estado.html"
+          >
+            <div class="img-art">
+              <img
+                src="https://cdn.pixabay.com/photo/2021/02/01/11/40/jesus-5970295_1280.jpg"
+              />
             </div>
 
-        </header>
+            <div class="txt-art">
+              <h2>STF, retrocesso e laicidade do Estado</h2>
 
-        <section class="sec-1" id="blog">
-            <div class="cx-sec-1">
-
-                <div class="titulo-da-sec">
-
-                    <div class="cx-cont-title-sec">
-                        <div class="icone-sec">
-                            <p>Blog</p>
-                        </div>
-    
-                        <div class="txt-sec">
-                            <h1>Reflexões não acadêmicas</h1>
-                            <p>Aprecie com moderação</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="sec-1-conteudo">
-
-                    <a class="previa-art" href="./STF_retrocesso_e_laicidade_do_Estado.html">
-
-                        <div class="img-art">
-                            <img src="https://cdn.pixabay.com/photo/2021/02/01/11/40/jesus-5970295_1280.jpg">
-                        </div>
-
-                        <div class="txt-art">
-
-                            <h2>STF, retrocesso e laicidade do Estado</h2>
-
-                            <p>Nesta semana, o STF mais uma vez mostrou que o Estado laico não passa de uma farsa. A maioria dos ministros do Supremo decidiram que a ostentação de símbolos religiosos nas repartições públicas, não viola o suposto princípio da laicidade do estado brasileiro.</p>
-
-                        </div>
-
-                    </a>
-
-                    <a class="previa-art" href="./O-que-podemos-esperar-da-educação.html">
-
-                        <div class="img-art">
-                            <img src="https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_1280.jpg">
-                        </div>
-
-                        <div class="txt-art">
-
-                            <h2>O que podemos esperar da escola?</h2>
-
-                            <p>A educação em seu sentido amplo é fundamental para a reprodução do ser social, isso já disse Lukács em sua Para a ontologia do ser social. Os avanços obtidos no conhecimento do mundo que nos cerca precisa ser transmitido para as novas gerações, sob pena da própria extinção da humanidade. Foi assim com nossos primitivos antepassados, o é atualmente e ainda será enquanto existirem homens e mulheres sobre o solo deste planeta.</p>
-
-                        </div>
-
-                    </a>
-
-                    <a class="previa-art" href="./Trabalho-Ciência-e-Religião.html">
-
-                        <div class="img-art">
-                            <img src="https://socientifica.com.br/wp-content/uploads/2018/04/1590709_orig1.jpg.webp">
-                        </div>
-
-                        <div class="txt-art">
-
-                            <h2>Trabalho, ciência e religião</h2>
-
-                            <p>O trabalho é, como muito bem explica o húngaro Lukács, o ponto médio entre o indivíduo, o sujeito e a natureza, bem como a sociedade. É ele que possibilita o salto ontológico, que leva da hominização à humanização, mas, além disso e em paralelo a isso, é através do trabalho que se desenvolve a ciência e a religião.</p>
-
-                        </div>
-
-                    </a>
-
-                    <a class="previa-art" href="./Monoteísmo-e-classes-sociais-antagônicas.html">
-
-                        <div class="img-art">
-                            <img src="https://img.freepik.com/free-photo/holy-bible-with-rays-light-coming-out-ai-generative_123827-23906.jpg">
-                        </div>
-
-                        <div class="txt-art">
-
-                            <h2>Monoteísmo e classes sociais antagônicas</h2>
-
-                            <p>Atualmente as religiões com maior número de fiéis pelo mundo são religiões monoteístas: cristianismo, islamismo e judaísmo. Porém, sabemos que as religiões monoteístas nem sempre existiram, antes destas as religiões ou manifestações religiosas eram dominantemente politeístas.</p>
-
-                        </div>
-
-                    </a>
-
-                    <a class="previa-art" href="./Kautsky-cristianismo-da-classe-dominante.html">
-
-                        <div class="img-art">
-                            <img src="https://conhecimentocientifico.r7.com/wp-content/uploads/2019/11/cristianismo-origem-historia-crencas-simbolos-correntes-e-propagacao.jpg">
-                        </div>
-
-                        <div class="txt-art">
-
-                            <h2>Kautsky, cristianismo e classe dominante</h2>
-
-                            <p>Sem entrar nas polêmicas envolvendo Karl Kautsky, sua obra A origem do cristianismo, revela, entre outras coisas, como a religião de cada época é em última instância determinada pela forma como se organizam as relações de produção. Isso prova também o que já dissera Marx e Engels na Ideologia Alemã: a ideologia dominante é a ideologia da classe dominante. Nesse caso, a religião – forma ideológica – dominante de cada época histórica é a religião da classe dominante.</p>
-
-                        </div>
-
-                    </a>
-
-                    <a class="previa-art" href="./Ética-transcendente-capitalismo-decadente.html">
-                        <div class="img-art">
-                            <img src="https://www.segs.com.br/media/k2/items/cache/fa388bc91247c304ff8ede52cfc012f8_XL.jpg">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Ética transcendente e capitalismo decadente</h2>
-                            <p>Tendo sido superada – naquele sentido hegeliano recuperado por Marx – pelo reflexo científico, a religião persiste com considerável influência no cotidiano das pessoas. Uma das razões para este fato tem relação com sua concepção ética e como ela se encaixa no contexto de classes sociais antagônicas, destacadamente no seio do capitalismo em crise estrutural.</p>
-                        </div>
-                    </a>
-
-                    <a class="previa-art" href="./Os-limites-da-luta-identitária.html">
-                        <div class="img-art">
-                            <img src="https://www.politize.com.br/wp-content/smush-webp/2024/07/2-Templates-e-Orientacoes-Capas-Blogposts-do-Portal-Politize-13-2-768x499.png.webp">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Sobre os limites do identitarismo</h2>
-                            <p>A luta identitária ao longo do tempo logrou seus êxitos na esfera da particularidade e, não nos resta qualquer dúvida quanto a importância que isso representa a tantas singularidades espalhadas pelo Brasil. Vejamos, por exemplo, com relação à questão racial e a educação.</p>
-                        </div>
-                    </a>
-
-                    <a class="previa-art" href="./Engels-e-a-homoafetividade.html">
-                        <div class="img-art">
-                            <img src="https://grabois.org.br/wp-content/uploads/2015/08/engels.jpg">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Engels e a homoafetividade</h2>
-                            <p>Na Ideologia Alemã Marx e Engels exaltam a história como única ciência. Claro que os fundadores do socialismo científico não estavam a negar todos os outros campos do conhecimento científico, mas afirmando que economia é história, física é história, matemática é história… tudo é história.</p>
-                        </div>
-                    </a>
-
-                    <a class="previa-art" href="./Pousando-no-amor-e-sua-caricatura-do-comunismo.html">
-                        <div class="img-art">
-                            <img src="https://s2-techtudo.glbimg.com/VokqMgVirH_2ZUXkld0vX3dY98U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/Z/D/BVNbGHSWiLxlpxUc4rBg/pousando-no-amor-dorama-netflix.jpg">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Pousando no amor e sua caricatura do comunismo</h2>
-                            <p>O dorama também não mostra que na Coreia do Sul a taxa de suicídio chega a mais de 158% em relação a vizinha comunista. Maravilhas do capitalismo? Parte significativa dessa triste estatística está ligada à enorme pressão que a população sul coreana sofre com relação ao trabalho e a expectativa de sucesso financeiro. Além disso, a chamada ditadura da beleza é outro fator que, inclusive entre os próprios jovens, tem contribuído com esses números.</p>
-                        </div>
-                    </a>
-
-                    <a class="previa-art" href="./Marx-Racista.html">
-                        <div class="img-art">
-                            <img src="https://jacobin.com.br/wp-content/uploads/2020/06/WhatsApp-Image-2020-06-02-at-12.33.45-1024x639.jpeg">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Marx era racista?</h2>
-                            <p>Indiscutivelmente, é fato, está escrito, documentado etc. Marx usou de forma muito clara expressões que não há como entender de forma diferente se não como expressões racistas. Até é compreensível que alguns marxistas ultrapassam os limites da ciência e admiração intelectual para se tornarem verdadeiros fanáticos por Marx, a ponto de, sem qualquer lógica e plausibilidade, querer contestar algo que é fato, como já dissemos, devidamente documentado.</p>
-                        </div>
-                    </a>
-
-                    <a class="previa-art" href="./Pretagogia-Primeira-Parte.html">
-                        <div class="img-art">
-                            <img src="https://img.freepik.com/free-photo/mother-helping-supporting-her-daughter-with-online-school-while-staying-home-new-normal-lifestyle-concept-monoparental-concept_58466-14652.jpg">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Pretagogia: primeira parte</h2>
-                            <p>Do mesmo modo, um conhecimento não é mais ou menos científico pelo fato de quem o produziu ser negro, branco etc. Os pretagogos parecem desconhecer que o critério de validade de uma teoria é sempre a realidade, concreta e objetiva.</p>
-                        </div>
-                    </a>
-
-                    <a class="previa-art" href="./Elanor-Leacock-Religião-e-Escravidão.html">
-                        <div class="img-art">
-                            <img src="https://americanethnologist.org/wp-content/uploads/2022/09/06-photo.jpg">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Eleanor Leacock: religião e escravidão</h2>
-                            <p>Eleanor Leacock, no seu livro Mitos da dominação masculina¹ traduzido para o português pela maravilhosa professora Susana Jimenez, traz uma interessante e assertiva ideia sobre a relação entre escravidão e religião.</p>
-                        </div>
-                    </a>
-
-                    <a class="previa-art" href="./Limites-e-possibilidades-da-educação.html">
-                        <div class="img-art">
-                            <img src="https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg">
-                        </div>
-                        <div class="txt-art">
-                            <h2>Sobre os limites e possibilidades da educação</h2>
-                            <p>Reconhecer isso não significa de modo algum ser pessimista, mas sim, uma análise mais próxima de como a realidade de fato é. Do mesmo modo, também não significa que, pelo fato de uma educação fundamentalmente maraxista não ter como se estruturar nos dias atuais, que devamos cruzar os braços. Lembra daquela autonomia relativa? é igualmente importante reconhecê-la e usufruir dela.</p>
-                        </div>
-                    </a>
-
-                </div>
+              <p>
+                Nesta semana, o STF mais uma vez mostrou que o Estado laico não
+                passa de uma farsa. A maioria dos ministros do Supremo decidiram
+                que a ostentação de símbolos religiosos nas repartições
+                públicas, não viola o suposto princípio da laicidade do estado
+                brasileiro.
+              </p>
             </div>
-        </section>
+          </a>
 
-        <footer class="footer" id="footer"></footer>
+          <a class="previa-art" href="./O-que-podemos-esperar-da-educação.html">
+            <div class="img-art">
+              <img
+                src="https://cdn.pixabay.com/photo/2017/02/24/02/37/classroom-2093744_1280.jpg"
+              />
+            </div>
 
-    </body>
+            <div class="txt-art">
+              <h2>O que podemos esperar da escola?</h2>
 
+              <p>
+                A educação em seu sentido amplo é fundamental para a reprodução
+                do ser social, isso já disse Lukács em sua Para a ontologia do
+                ser social. Os avanços obtidos no conhecimento do mundo que nos
+                cerca precisa ser transmitido para as novas gerações, sob pena
+                da própria extinção da humanidade. Foi assim com nossos
+                primitivos antepassados, o é atualmente e ainda será enquanto
+                existirem homens e mulheres sobre o solo deste planeta.
+              </p>
+            </div>
+          </a>
+
+          <a class="previa-art" href="./Trabalho-Ciência-e-Religião.html">
+            <div class="img-art">
+              <img
+                src="https://socientifica.com.br/wp-content/uploads/2018/04/1590709_orig1.jpg.webp"
+              />
+            </div>
+
+            <div class="txt-art">
+              <h2>Trabalho, ciência e religião</h2>
+
+              <p>
+                O trabalho é, como muito bem explica o húngaro Lukács, o ponto
+                médio entre o indivíduo, o sujeito e a natureza, bem como a
+                sociedade. É ele que possibilita o salto ontológico, que leva da
+                hominização à humanização, mas, além disso e em paralelo a isso,
+                é através do trabalho que se desenvolve a ciência e a religião.
+              </p>
+            </div>
+          </a>
+
+          <a
+            class="previa-art"
+            href="./Monoteísmo-e-classes-sociais-antagônicas.html"
+          >
+            <div class="img-art">
+              <img
+                src="https://img.freepik.com/free-photo/holy-bible-with-rays-light-coming-out-ai-generative_123827-23906.jpg"
+              />
+            </div>
+
+            <div class="txt-art">
+              <h2>Monoteísmo e classes sociais antagônicas</h2>
+
+              <p>
+                Atualmente as religiões com maior número de fiéis pelo mundo são
+                religiões monoteístas: cristianismo, islamismo e judaísmo.
+                Porém, sabemos que as religiões monoteístas nem sempre
+                existiram, antes destas as religiões ou manifestações religiosas
+                eram dominantemente politeístas.
+              </p>
+            </div>
+          </a>
+
+          <a
+            class="previa-art"
+            href="./Kautsky-cristianismo-da-classe-dominante.html"
+          >
+            <div class="img-art">
+              <img
+                src="https://conhecimentocientifico.r7.com/wp-content/uploads/2019/11/cristianismo-origem-historia-crencas-simbolos-correntes-e-propagacao.jpg"
+              />
+            </div>
+
+            <div class="txt-art">
+              <h2>Kautsky, cristianismo e classe dominante</h2>
+
+              <p>
+                Sem entrar nas polêmicas envolvendo Karl Kautsky, sua obra A
+                origem do cristianismo, revela, entre outras coisas, como a
+                religião de cada época é em última instância determinada pela
+                forma como se organizam as relações de produção. Isso prova
+                também o que já dissera Marx e Engels na Ideologia Alemã: a
+                ideologia dominante é a ideologia da classe dominante. Nesse
+                caso, a religião – forma ideológica – dominante de cada época
+                histórica é a religião da classe dominante.
+              </p>
+            </div>
+          </a>
+
+          <a
+            class="previa-art"
+            href="./Ética-transcendente-capitalismo-decadente.html"
+          >
+            <div class="img-art">
+              <img
+                src="https://www.segs.com.br/media/k2/items/cache/fa388bc91247c304ff8ede52cfc012f8_XL.jpg"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Ética transcendente e capitalismo decadente</h2>
+              <p>
+                Tendo sido superada – naquele sentido hegeliano recuperado por
+                Marx – pelo reflexo científico, a religião persiste com
+                considerável influência no cotidiano das pessoas. Uma das razões
+                para este fato tem relação com sua concepção ética e como ela se
+                encaixa no contexto de classes sociais antagônicas,
+                destacadamente no seio do capitalismo em crise estrutural.
+              </p>
+            </div>
+          </a>
+
+          <a class="previa-art" href="./Os-limites-da-luta-identitária.html">
+            <div class="img-art">
+              <img
+                src="https://www.politize.com.br/wp-content/smush-webp/2024/07/2-Templates-e-Orientacoes-Capas-Blogposts-do-Portal-Politize-13-2-768x499.png.webp"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Sobre os limites do identitarismo</h2>
+              <p>
+                A luta identitária ao longo do tempo logrou seus êxitos na
+                esfera da particularidade e, não nos resta qualquer dúvida
+                quanto a importância que isso representa a tantas singularidades
+                espalhadas pelo Brasil. Vejamos, por exemplo, com relação à
+                questão racial e a educação.
+              </p>
+            </div>
+          </a>
+
+          <a class="previa-art" href="./Engels-e-a-homoafetividade.html">
+            <div class="img-art">
+              <img
+                src="https://grabois.org.br/wp-content/uploads/2015/08/engels.jpg"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Engels e a homoafetividade</h2>
+              <p>
+                Na Ideologia Alemã Marx e Engels exaltam a história como única
+                ciência. Claro que os fundadores do socialismo científico não
+                estavam a negar todos os outros campos do conhecimento
+                científico, mas afirmando que economia é história, física é
+                história, matemática é história… tudo é história.
+              </p>
+            </div>
+          </a>
+
+          <a
+            class="previa-art"
+            href="./Pousando-no-amor-e-sua-caricatura-do-comunismo.html"
+          >
+            <div class="img-art">
+              <img
+                src="https://s2-techtudo.glbimg.com/VokqMgVirH_2ZUXkld0vX3dY98U=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/Z/D/BVNbGHSWiLxlpxUc4rBg/pousando-no-amor-dorama-netflix.jpg"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Pousando no amor e sua caricatura do comunismo</h2>
+              <p>
+                O dorama também não mostra que na Coreia do Sul a taxa de
+                suicídio chega a mais de 158% em relação a vizinha comunista.
+                Maravilhas do capitalismo? Parte significativa dessa triste
+                estatística está ligada à enorme pressão que a população sul
+                coreana sofre com relação ao trabalho e a expectativa de sucesso
+                financeiro. Além disso, a chamada ditadura da beleza é outro
+                fator que, inclusive entre os próprios jovens, tem contribuído
+                com esses números.
+              </p>
+            </div>
+          </a>
+
+          <a class="previa-art" href="./Marx-Racista.html">
+            <div class="img-art">
+              <img
+                src="https://jacobin.com.br/wp-content/uploads/2020/06/WhatsApp-Image-2020-06-02-at-12.33.45-1024x639.jpeg"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Marx era racista?</h2>
+              <p>
+                Indiscutivelmente, é fato, está escrito, documentado etc. Marx
+                usou de forma muito clara expressões que não há como entender de
+                forma diferente se não como expressões racistas. Até é
+                compreensível que alguns marxistas ultrapassam os limites da
+                ciência e admiração intelectual para se tornarem verdadeiros
+                fanáticos por Marx, a ponto de, sem qualquer lógica e
+                plausibilidade, querer contestar algo que é fato, como já
+                dissemos, devidamente documentado.
+              </p>
+            </div>
+          </a>
+
+          <a class="previa-art" href="./Pretagogia-Primeira-Parte.html">
+            <div class="img-art">
+              <img
+                src="https://img.freepik.com/free-photo/mother-helping-supporting-her-daughter-with-online-school-while-staying-home-new-normal-lifestyle-concept-monoparental-concept_58466-14652.jpg"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Pretagogia: primeira parte</h2>
+              <p>
+                Do mesmo modo, um conhecimento não é mais ou menos científico
+                pelo fato de quem o produziu ser negro, branco etc. Os
+                pretagogos parecem desconhecer que o critério de validade de uma
+                teoria é sempre a realidade, concreta e objetiva.
+              </p>
+            </div>
+          </a>
+
+          <a
+            class="previa-art"
+            href="./Elanor-Leacock-Religião-e-Escravidão.html"
+          >
+            <div class="img-art">
+              <img
+                src="https://americanethnologist.org/wp-content/uploads/2022/09/06-photo.jpg"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Eleanor Leacock: religião e escravidão</h2>
+              <p>
+                Eleanor Leacock, no seu livro Mitos da dominação masculina¹
+                traduzido para o português pela maravilhosa professora Susana
+                Jimenez, traz uma interessante e assertiva ideia sobre a relação
+                entre escravidão e religião.
+              </p>
+            </div>
+          </a>
+
+          <a
+            class="previa-art"
+            href="./Limites-e-possibilidades-da-educação.html"
+          >
+            <div class="img-art">
+              <img
+                src="https://img.freepik.com/free-photo/education-day-arrangement-table-with-copy-space_23-2148721266.jpg"
+              />
+            </div>
+            <div class="txt-art">
+              <h2>Sobre os limites e possibilidades da educação</h2>
+              <p>
+                Reconhecer isso não significa de modo algum ser pessimista, mas
+                sim, uma análise mais próxima de como a realidade de fato é. Do
+                mesmo modo, também não significa que, pelo fato de uma educação
+                fundamentalmente maraxista não ter como se estruturar nos dias
+                atuais, que devamos cruzar os braços. Lembra daquela autonomia
+                relativa? é igualmente importante reconhecê-la e usufruir dela.
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="footer"></footer>
+  </body>
 </html>
