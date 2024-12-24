@@ -311,7 +311,6 @@
     =====================*/
   .sec-artigo {
     margin: 60px auto 60px;
-    display: flex;
     max-width: 1000px;
   }
   .sec-artigo .cx-artigo {
@@ -395,49 +394,6 @@
     font-weight: 800;
   }
 
-  .sec-artigo .coluna-direita{
-    max-width: 300px;
-    padding: 0px 0px 0px 40px;
-  }
-  .sec-artigo .coluna-direita .cx-conteudo{
-    margin-bottom: 30px;
-  }
-  .sec-artigo .coluna-direita .cx-conteudo h3{
-    background-color: #cd0000;
-    text-align: center;
-    padding: 5px 0px;
-    color: #ecf0f1;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: 800;
-  }
-  .sec-artigo .coluna-direita .cx-conteudo ul li{
-    list-style-type: decimal;
-    list-style-position: inside;
-    margin-bottom: 6px;
-  }
-  .sec-artigo .coluna-direita .cx-conteudo ul li a{
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  .sec-artigo .coluna-direita .cx-conteudo ul li a:hover{
-    color: #cd0000;
-  }
-  #link-sites-parceiros a{
-    display: inline-block;
-    text-decoration: none;
-    color: #000000;
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 10px;
-  }
-  #link-sites-parceiros a:hover{
-    color: #cd0000;
-  }
-
   /*========================
     Página dos grupos
     ==========================*/
@@ -448,7 +404,8 @@
   }
   .sec-2 .cx-sec-2 {
     height: auto;
-    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
   }
   .sec-2 .cx-sec-2 .titulo-da-sec2 {
     background-color: #cd0000;
@@ -464,8 +421,8 @@
     margin: 0 auto;
   }
   .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .icone-sec2 {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -474,6 +431,7 @@
   }
   .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .icone-sec2 p {
     font-weight: 900;
+    font-size: 18px;
     color: #cd0000;
   }
   .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2 {
@@ -481,13 +439,16 @@
     margin-left: 20px;
   }
   .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2 h1 {
-    font-size: 28px;
+    font-size: 24px;
+  }
+  .sec-2 .cx-sec-2 .titulo-da-sec2 .cx-cont-title-sec2 .txt-sec2 p{
+    font-size: 14px;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo {
-    width: 90%;
+    width: 100%;
     margin: 60px auto 0px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 60px;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo .grupo {
@@ -495,23 +456,23 @@
     align-items: center;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo {
-    width: 30%;
+    width: 18%;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .img-grupo img {
     width: 100%;
     border-radius: 100%;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo {
-    width: 70%;
+    width: 82%;
     padding-left: 20px;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo h2 {
     font-weight: 900;
     color: #cd0000;
-    font-size: 28px;
+    font-size: 24px;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo p {
-    font-size: 22px;
+    font-size: 18px;
     color: #cd0000;
     margin: 10px 0px;
   }
@@ -519,12 +480,12 @@
     color: #cd0000;
     font-weight: 700;
     letter-spacing: -1px;
-    font-size: 22px;
+    font-size: 18px;
   }
   .sec-2 .cx-sec-2 .sec-2-conteudo .grupo .txt-grupo a {
     text-decoration: none;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
     color: #ecf0f1;
     display: inline-block;
     margin: 10px 0px 0px;
@@ -547,7 +508,7 @@
     margin: 60px auto 60px;
   }
   .sec-publi .cx-publi {
-    width: 50%;
+    max-width: 1000px;
     margin: 0 auto;
     border: solid 1px #cd0000;
     border-radius: 10px;
@@ -560,7 +521,7 @@
     margin: 0px 0px 40px 0px;
   }
   .sec-publi .cx-publi .publi .icon-pdf {
-    width: 8%;
+    width: 5%;
   }
   .sec-publi .cx-publi .publi .icon-pdf img {
     width: 100%;
@@ -570,7 +531,7 @@
     padding-left: 20px;
   }
   .sec-publi .cx-publi .publi .info-publi a {
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 900;
     text-decoration: none;
     color: #000000;
@@ -579,6 +540,6 @@
     color: #cd0000;
   }
   .sec-publi .cx-publi .publi .info-publi p {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
