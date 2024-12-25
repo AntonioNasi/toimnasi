@@ -5,6 +5,9 @@
   header {
     height: auto;
   }
+  #menu2{
+    display: none;
+  }
   header nav {
     display: flex;
     background-color: #cd0000;
