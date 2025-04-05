@@ -7,38 +7,3 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
-header{
-    height: auto;
-    width: auto;
-
-    border: solid 1px red;
-}
-
-header .container-header{
-    width: 1280px;
-    margin: 0 auto;
-    display: flex;
-}
-
-header .container-header .imagem-header{
-    height: 600px;
-    width: 50%;
-    margin-top: 80px;
-
-    border: solid 1px black;
-}
-
-header .container-header .imagem-header img{
-    height: 100%;
-    object-position:bottom;
-    object-fit: cover;
-}
-
-header .container-header .texto-header{
-    height: 100%;
-    width: 50%;
-    margin-top: 80px;
-
-    border: solid 1px pink;
-}
